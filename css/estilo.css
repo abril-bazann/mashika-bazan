@@ -1,0 +1,793 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------EMPIEZA INDEX----------------*/
+
+
+body{
+    background-color: #000123;
+}
+
+header{
+    display: flex;
+}
+
+.h2{
+    color: #FF0F7B;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+}
+
+.img__flecha{
+    display:block;
+    margin:auto
+}
+
+.btn__productos{
+    background-color: #FF0F7B;
+    color: #FFFFFF;
+    display:block;
+    margin:auto;
+    border: #FF0F7B;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+}
+
+.header__navbar ul{
+    padding: 2rem;
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    margin-left: 2rem;
+}
+
+.header__navbar li{
+    display: inline-block;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    background-color: #FF0F7B;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    cursor: pointer;
+    
+}
+
+.header__navbar a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: initial;
+    font-size: 1.2rem;
+    background-color: #FF0F7B;
+    padding: 0.5rem;
+}
+
+/*-----------------EMPIEZA FOOTER/CONTACTO----------------*/
+
+.h2--contactate{
+    text-align: left;
+    color: #FFFFFF;
+    padding: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.main{
+    background-color: #FF0F7B;
+    padding: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.img__correo{
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin: 1rem;
+}
+
+.main__div__a{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.main__div__a--instagram{
+    display: flex;
+    justify-items: end;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    
+}
+
+.main__div__a--youtube{
+    display: flex;
+    height: 3rem;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.form__textarea{
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 1rem;
+}
+
+.h3__section{
+    color: #FFFFFF;
+    padding: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.div__ubicacion--tel{
+    padding: 1rem;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #FF0F7B;
+    text-align: right;
+}
+
+.logo{
+    width: 300px;
+    height: 100px;
+    padding: 0.2rem;
+    margin: 1rem;
+}
+
+.form__button{
+    color: #FF0F7B;
+    background-color: #FFFFFF;
+    border: #FF0F7B;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    margin: 0.3rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.form__button--limpiar{
+    color: #FF0F7B;
+    background-color: #FFFFFF;
+    border: #FF0F7B;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem; 
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    margin: 0.3rem;
+    height: 2rem;
+    cursor: pointer;
+
+}
+
+/*-----------------TERMINA FOOTER/CONTACTO----------------*/
+
+
+/*-----------------EMPIEZA REGISTRO----------------*/
+
+#div__registro{
+    display: grid;
+    grid-template-areas: "aside form"
+    "aside form";
+    grid-template-rows: 1fr;
+    grid-template-columns: 3% auto;
+    align-items: center;
+    
+}
+
+.img__lentes--registro{
+    height: 20rem;
+    width: 24rem;
+}
+
+aside#aside__h1--registro{
+    grid-area: aside__h1--registro;
+    display: grid;
+    grid-template-columns: 50%;
+    justify-items: start;
+    justify-content: start;
+}
+
+form#form__datos{
+    grid-area: form__datos;
+    display: grid;
+    justify-items: end;
+    justify-content: end;
+    grid-template-columns: 50%;
+}
+
+.h1__registro{
+    color: #FFFFFF;
+    text-align: left;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.legend{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.fieldset{
+    padding: 1rem;
+    display: grid;
+    justify-items: end;
+    justify-content: space-around;
+    background-color: #FF0F7B;
+    border-color: #FF0F7B;
+
+}
+
+
+.fieldset__label--nombre{
+    color: #FFFFFF;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    display:block;
+    text-align: right;
+}
+
+.fieldset__input nombre{
+    color: #FF0F7B;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0.5rem;
+    
+}
+
+.fieldset__label--apellido{
+    color: #FFFFFF;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    display:block;
+    text-align: right;
+}
+
+.fieldset__input apellido{
+    color: #FF0F7B;
+    text-align: left;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0.5rem;
+}
+
+.fieldset__label--nacionalidad{
+    color: #FFFFFF;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    display:block;
+    text-align: right;
+}
+
+.fieldset__select--nacionalidad{
+    color: #FF0F7B;
+    text-align: left;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0.5rem;
+}
+
+.fieldset__label--email{
+    color: #FFFFFF;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    display: block;
+    text-align: right;
+}
+
+.fieldset__input email{
+    color: #FF0F7B;
+    text-align: left;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0.5rem;
+}
+
+.fieldset__label--acepto{
+    color: #FFFFFF;
+    text-align: left;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    display:block;
+    text-align: right;
+}
+
+.fieldset__input checkbox{
+    color: #FFFFFF;
+    text-align: right;
+    display: grid;
+}
+
+.fieldset p{
+    color: #FFFFFF;
+    text-align: right;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 1rem;
+}
+
+.fieldset__input--btn{
+    color: #FF0F7B;
+    background-color: #FFFFFF;
+    border: #FF0F7B;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+/*-----------------TERMINA REGISTRO----------------*/
+
+/*-----------------EMPIEZA TIENDA----------------*/
+
+
+#inicio{
+    color: #FF0F7B;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    
+}
+
+.div__productos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+
+.fieldset__tienda--p1{
+    height: 9rem;
+    width: 20rem;
+    border:2px inset #FF0F7B;
+    border-radius : 10px 20px 30px 40px;
+
+}
+
+.fieldset__tienda--p2{
+    height: 9rem;
+    width: 20rem;
+    border:2px outset #FF0F7B;
+    border-radius : 10px 20px 30px 40px;
+
+}
+
+.fieldset__tienda--p3{
+    height: 9rem;
+    width: 20rem;
+    border:2px inset #FF0F7B;
+    border-radius : 10px 20px 30px 40px;
+}
+
+
+.div__productos--producto1{
+    padding: 0.5rem;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+}
+
+.div__productos--producto2{
+    padding: 0.5rem;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+}
+
+#img__lente3{
+    margin-left: 5rem;
+}
+
+.div__productos--producto3{
+    padding: 0.5rem;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+}
+
+.producto__destacado{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #FF0F7B;
+    justify-content: center;
+}
+
+
+.div__producto--destacado{
+    display: flex;
+    margin: 1rem;
+}
+
+.img__producto--destacado{
+    height: 20rem;
+    width: 23rem;
+}
+
+.div__a--subir{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+    background-color: #FFFFFF;
+}
+
+.div__btn--comprar{
+    display: grid;
+}
+
+.div__btn--comprar{
+    display: grid;
+    padding: 1rem;
+    justify-content: end;
+    justify-items: end;
+}
+
+.btn__comprar{
+    color: #FF0F7B;
+    background-color: #FFFFFF;
+    border: #FF0F7B;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.div__img--lentes{
+    
+    display: flex;
+
+}
+
+.img__tienda{
+    
+    height: 20rem;
+    width: 20rem;
+}
+
+
+
+/*-----------------TERMINA TIENDA----------------*/
+
+/*-----------------EMPIEZA NOSOTRAS----------------*/
+
+.h1__nosotras{
+    color: #FF0F7B;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.div__nosotras{
+    display: flex;
+    margin: 1rem;
+}
+
+.div__nosotras--h1yp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #FF0F7B;
+    justify-content: center;
+}
+
+.p__nosotras{
+    padding: 2rem;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+}
+
+
+
+/*-----------------------------------320px----------------------------------*/
+@media screen and (max-width: 480px){
+    body{
+        background-color: #000123;
+        
+    }
+    
+    header{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 1rem;
+        padding: 3rem;
+    }
+
+    .header__navbar ul{
+        padding: 2rem;
+        margin-left: 2rem;
+        flex-direction: column;
+    }
+    
+    .header__navbar li{
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+        background-color: #FF0F7B;
+        border-radius: 0.5rem;
+        border-width: 1rem;
+        padding: 0.5rem;
+        margin: 0.3rem;
+        text-align: center;
+    }
+
+    .logo{
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        height: 100px;
+        padding: 0.1rem;
+        margin: 1rem;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        
+    }
+
+    .main{
+        padding: 0.3rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__div__a{
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FFFFFF;
+        
+    }
+    
+    .main__div__a--instagram{
+        display: flex; 
+        height: 3rem;
+    }
+    
+    .main__div__a--youtube{
+        display: flex;
+        height: 3rem;
+    }
+    
+    .form__textarea{
+        font-family: 'Chakra Petch', sans-serif;
+        margin: 0.5rem;
+        width: 10rem;
+        padding: 1rem;
+    }
+    
+    .div__ubicacion--tel{
+        color: #FFFFFF;
+        font-weight: lighter;
+        font-family: 'Chakra Petch', sans-serif;
+        background-color: #FF0F7B;
+        text-align: center;
+    }
+
+    .div{
+        display: flex;
+    }
+
+    .iframe{
+        padding: 0.5rem;
+    }
+
+    .h3__section{
+        color: #FFFFFF;
+        padding: 1rem;
+        font-family: 'Chakra Petch', sans-serif;
+        text-align: center;
+    }
+
+    .section__ubicacion{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside{
+        display: none;
+    }
+
+    #inicio{
+        color: #FF0F7B;
+        text-align: center;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+        background-color: #FFFFFF;
+        font-size: medium;
+    }
+
+    .div__inicio{
+        display: flex;
+
+    }
+    
+    .div__img--lentes{
+        align-content: center;
+        margin: 5rem;
+        display: inline-block;
+        margin: 1rem;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .img__tienda{
+        height: 20rem;
+        width: 20rem;
+
+    }
+
+    .div__descuento{
+        text-align: center;
+    }
+
+    .div__productos{
+        flex-direction: column;
+        padding: 3rem;
+        margin: 1rem;
+        display: none;
+    }
+
+    #img__lente3{
+        margin-left: 0;
+    }
+
+    .producto__destacado{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2rem;
+        font-family: 'Chakra Petch', sans-serif;
+        color: #FF0F7B;
+    }
+
+    .div__producto--destacado{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .fieldset__tienda--p1{
+        height: 5.1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fieldset__tienda--p2{
+        height: 5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fieldset__tienda--p3{
+        height: 3.7rem;
+        margin-bottom: 1rem;
+    }
+
+    #div__registro{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        align-content: stretch;
+    }
+        
+
+    aside#aside__h1--registro{
+        display: grid;
+        grid-template-columns: 50%;
+        justify-items: start;
+        justify-content: space-around;
+        
+    }
+
+    form#form__datos{
+        text-align: start;
+        display: grid;
+        justify-items: start;
+        justify-content: start;
+
+    }
+
+    .div__producto--destacado{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .img__producto--destacado{
+        padding: 3rem;
+        margin: 1rem;
+        
+    }
+
+    .img__lentes--registro{
+        display: none;
+    }
+
+    .h1__registro{
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+        padding: 0rem;
+        margin: 0rem;
+        font-size: 1.5rem;
+    }
+
+    .fieldset{
+        margin: 0;
+        padding: 2rem;
+        
+    }
+
+
+}
+    
+
+
+
+/*--------------------------------768px-------------------------------
