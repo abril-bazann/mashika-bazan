@@ -122,7 +122,11 @@ header{
 .form__textarea{
     font-family: 'Chakra Petch', sans-serif;
     margin: 1rem;
-}
+    padding: 0.5rem;
+    border: #000123;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+}   
 
 .h3__section{
     color: #FFFFFF;
@@ -188,6 +192,34 @@ header{
     grid-template-columns: 3% auto;
     align-items: center;
     
+}
+
+.fieldset__input--nombre{
+    border: #000123;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+}
+
+.fieldset__input--apellido{
+    border: #000123;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+}
+
+.fieldset__select--nacionalidad{
+    border: #000123;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+}
+
+.fieldset__input--email{
+    border: #000123;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
 }
 
 .img__lentes--registro{
