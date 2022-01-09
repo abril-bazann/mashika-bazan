@@ -341,6 +341,10 @@ form#form__datos{
     cursor: pointer;
 }
 
+.form-check-label{
+    color: #FFFFFF;
+}
+
 /*-----------------TERMINA REGISTRO----------------*/
 
 /*-----------------EMPIEZA TIENDA----------------*/
