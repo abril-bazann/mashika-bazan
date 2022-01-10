@@ -224,7 +224,7 @@ header{
 
 .img__lentes--registro{
     height: 20rem;
-    width: 24rem;
+    width: 24.5rem;
 }
 
 aside#aside__h1--registro{
@@ -381,6 +381,31 @@ form#form__datos{
 
 /*-----------------EMPIEZA TIENDA----------------*/
 
+.card{
+    height: 13rem;
+    width: 20rem;
+    border:2px outset #FF0F7B;
+    border-radius : 10px 20px 30px 40px;
+    color: #000;
+    background-color: #e1e2fa;
+}
+
+.div__card{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.btn__btn-primary{
+    background-color: #FF0F7B;
+    color: #FFFFFF;
+    border: #FF0F7B;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+}
 
 #inicio{
     color: #FF0F7B;
@@ -393,36 +418,6 @@ form#form__datos{
     margin-bottom: 1rem;
     
 }
-
-.div__productos{
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 2rem;
-}
-
-.fieldset__tienda--p1{
-    height: 9rem;
-    width: 20rem;
-    border:2px inset #FF0F7B;
-    border-radius : 10px 20px 30px 40px;
-
-}
-
-.fieldset__tienda--p2{
-    height: 9rem;
-    width: 20rem;
-    border:2px outset #FF0F7B;
-    border-radius : 10px 20px 30px 40px;
-
-}
-
-.fieldset__tienda--p3{
-    height: 9rem;
-    width: 20rem;
-    border:2px inset #FF0F7B;
-    border-radius : 10px 20px 30px 40px;
-}
-
 
 .div__productos--producto1{
     padding: 0.5rem;
@@ -438,10 +433,6 @@ form#form__datos{
     font-weight: lighter;
     font-family: 'Chakra Petch', sans-serif;
     text-align: center;
-}
-
-#img__lente3{
-    margin-left: 5rem;
 }
 
 .div__productos--producto3{
@@ -818,6 +809,18 @@ form#form__datos{
         margin: 0;
         padding: 2rem;
         
+    }
+
+    .card{
+        height: 13rem;
+        width: 20rem;
+        border:2px outset #FF0F7B;
+        border-radius : 10px 20px 30px 40px;
+        color: #000;
+        background-color: #e1e2fa;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;
     }
 
 
