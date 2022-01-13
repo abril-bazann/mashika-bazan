@@ -72,6 +72,32 @@ header{
     padding: 0.5rem;
 }
 
+.carousel-slide{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.carousel-inner{
+    display: flex;
+    height: 360px;
+    width: 640px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 /*-----------------EMPIEZA FOOTER/CONTACTO----------------*/
 
 .h2--contactate{
