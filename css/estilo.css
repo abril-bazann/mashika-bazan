@@ -100,6 +100,10 @@ header{
 
 /*-----------------EMPIEZA FOOTER/CONTACTO----------------*/
 
+.main__div__a img:hover{
+    transform: scale(1.2);
+}
+
 .h2--contactate{
     text-align: left;
     color: #FFFFFF;
@@ -407,6 +411,10 @@ form#form__datos{
 
 /*-----------------EMPIEZA TIENDA----------------*/
 
+.div__img--lentes img:hover{
+    transform: scale(1.2);
+}
+
 .card{
     height: 13rem;
     width: 20rem;
@@ -546,6 +554,10 @@ form#form__datos{
 /*-----------------TERMINA TIENDA----------------*/
 
 /*-----------------EMPIEZA NOSOTRAS----------------*/
+
+.div__img--nosotras img:hover{
+    transform: scale(1.2);
+}
 
 .h1__nosotras{
     color: #FF0F7B;
