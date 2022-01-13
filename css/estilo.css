@@ -413,7 +413,7 @@ form#form__datos{
     border:2px outset #FF0F7B;
     border-radius : 10px 20px 30px 40px;
     color: #000;
-    background-color: #e1e2fa;
+    background-image: linear-gradient(to right, #FF0F7B, #000123);
 }
 
 .div__card{
@@ -423,7 +423,7 @@ form#form__datos{
 }
 
 .btn__btn-primary{
-    background-color: #FF0F7B;
+    background-color: #000123;
     color: #FFFFFF;
     border: #FF0F7B;
     border-radius: 0.5rem;
@@ -431,6 +431,10 @@ form#form__datos{
     padding: 0.5rem;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
+}
+
+.card-header, .card-body, .card-text{
+    color: #FFFFFF;
 }
 
 #inicio{
