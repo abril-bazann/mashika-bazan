@@ -416,9 +416,10 @@ form#form__datos{
 }
 
 .card{
-    height: 13rem;
-    width: 20rem;
-    border:2px outset #FF0F7B;
+    height: 15rem;
+    width: 19rem;
+    padding: 0.3rem;
+    border: 2px outset #FF0F7B;
     border-radius : 10px 20px 30px 40px;
     color: #000;
     background-image: linear-gradient(to right, #FF0F7B, #000123);
