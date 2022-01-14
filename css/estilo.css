@@ -5,7 +5,12 @@
 }
 
 /*-----------------EMPIEZA INDEX----------------*/
-
+.alert{
+    color: #FF0F7B;
+    background-color: #FFFFFF;
+    border: #FF0F7B;
+    margin-top: 1rem;
+}
 
 body{
     background-color: #000123;
