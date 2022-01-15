@@ -451,6 +451,15 @@ form#form__datos{
     padding: 0.5rem;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
+    animation-name: btn__btn-primary--animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes btn__btn-primary--animation {
+    0%{background-color: #000123;}
+    40%{background-color: #FF0F7B;}
+    100%{background-color: #000123;}
 }
 
 .card-header, .card-body, .card-text{
@@ -548,6 +557,7 @@ form#form__datos{
     cursor: pointer;
     animation-name: btn__comprar-animation;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes btn__comprar-animation {
@@ -566,6 +576,9 @@ form#form__datos{
     padding: 0.5rem;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
+    animation-name: btn__btn-primary--animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .div__img--lentes{
