@@ -540,9 +540,9 @@ form#form__datos{
 }
 
 .div__btn--comprar{
-    display: grid;
+    display: flex;
     padding: 1rem;
-    justify-content: end;
+    justify-content: center;
     justify-items: end;
 }
 
@@ -556,14 +556,15 @@ form#form__datos{
     font-weight: bold;
     cursor: pointer;
     animation-name: btn__comprar-animation;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 
 @keyframes btn__comprar-animation {
     0%{background-color: #FFFFFF;}
     40%{background-color: #000123;}
-    90%{background-color: #000123;}
+    80%{background-color: #000123;}
+    90%{background-color: #0f102b;}
     100%{background-color: #FFFFFF;}
 }
 
