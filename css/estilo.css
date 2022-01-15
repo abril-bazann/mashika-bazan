@@ -5,6 +5,12 @@
 }
 
 /*-----------------EMPIEZA INDEX----------------*/
+
+.container-fluid{
+    padding: 0.5rem;
+}
+
+
 .alert{
     color: #FF0F7B;
     background-color: #FFFFFF;
