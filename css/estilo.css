@@ -418,6 +418,17 @@ form#form__datos{
     color: #FFFFFF;
 }
 
+legend{
+    animation-name: legend-animation;
+    animation-duration: 5s;
+}
+
+@keyframes legend-animation {
+    0%{background-color: #000123; width: 2rem;}
+    40%{background-color: #000123;}
+    100%{background-color: #000123;}
+}
+
 /*-----------------TERMINA REGISTRO----------------*/
 
 /*-----------------EMPIEZA TIENDA----------------*/
