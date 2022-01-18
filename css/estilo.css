@@ -10,7 +10,6 @@
     padding: 0.5rem;
 }
 
-
 .alert{
     color: #FF0F7B;
     background-color: #FFFFFF;
@@ -71,7 +70,6 @@ header{
     padding: 0.5rem;
     margin: 0.3rem;
     cursor: pointer;
-    
 }
 
 .header__navbar a{
@@ -107,9 +105,12 @@ header{
     justify-content: center;
 }
 
-
-
 /*-----------------EMPIEZA FOOTER/CONTACTO----------------*/
+
+.form__textarea:focus-within{
+    background-color: #0f102b;
+    color: #FFFFFF;
+}
 
 .main__div__a img:hover{
     transform: scale(1.2);
@@ -594,19 +595,13 @@ legend{
 }
 
 .div__img--lentes{
-    
     display: flex;
-
 }
 
-.img__tienda{
-    
+.img__tienda{ 
     height: 20rem;
     width: 20rem;
 }
-
-
-
 /*-----------------TERMINA TIENDA----------------*/
 
 /*-----------------EMPIEZA NOSOTRAS----------------*/
@@ -647,12 +642,10 @@ legend{
 }
 
 
-
 /*-----------------------------------320px----------------------------------*/
 @media screen and (max-width: 480px){
     body{
         background-color: #000123;
-        
     }
     
     header{
