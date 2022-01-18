@@ -311,7 +311,7 @@ form#form__datos{
     justify-content: space-around;
     background-color: #FF0F7B;
     border-color: #FF0F7B;
-
+    background-image: linear-gradient(to left, #FF0F7B, #000123);
 }
 
 
