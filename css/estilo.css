@@ -290,9 +290,9 @@ form#form__datos{
     text-align: left;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
-    padding: 1rem;
-    margin: auto;
     font-size: 2rem;
+    padding-bottom: 0.5rem;
+    margin-right: 6rem;
 }
 
 .legend{
@@ -310,8 +310,8 @@ form#form__datos{
     justify-items: end;
     justify-content: space-around;
     background-color: #FF0F7B;
-    border-color: #FF0F7B;
-    background-image: linear-gradient(to left, #FF0F7B, #000123);
+    background: rgb(209,178,176);
+    background: linear-gradient(90deg, rgba(209,178,176,1) 0%, rgba(0,1,35,1) 100%);
 }
 
 
@@ -428,6 +428,12 @@ legend{
     0%{background-color: #000123; width: 2rem;}
     40%{background-color: #000123;}
     100%{background-color: #000123;}
+}
+
+.chalamet-img__registro{
+    height: 360px;
+    width: 640px;
+    display: flex;
 }
 
 /*-----------------TERMINA REGISTRO----------------*/
