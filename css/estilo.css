@@ -11,8 +11,8 @@
 }
 
 .alert{
-    color: #FF0F7B;
-    background-color: #FFFFFF;
+    color: #000123;
+    background-color: #f6e0de;
     border: #FF0F7B;
     margin-top: 1rem;
 }
@@ -39,7 +39,7 @@ header{
 
 .btn__productos{
     background-color: #FF0F7B;
-    color: #FFFFFF;
+    color: #f6e0de;
     display:block;
     margin:auto;
     border: #FF0F7B;
@@ -118,7 +118,7 @@ header{
 
 .h2--contactate{
     text-align: left;
-    color: #FFFFFF;
+    color: #f6e0de;
     padding: 1rem;
     font-family: 'Chakra Petch', sans-serif;
 }
@@ -171,14 +171,14 @@ header{
 }   
 
 .h3__section{
-    color: #FFFFFF;
+    color: #f6e0de;
     padding: 1rem;
     font-family: 'Chakra Petch', sans-serif;
 }
 
 .div__ubicacion--tel{
     padding: 1rem;
-    color: #FFFFFF;
+    color: #f6e0de;
     font-weight: lighter;
     font-family: 'Chakra Petch', sans-serif;
     background-color: #FF0F7B;
@@ -193,12 +193,12 @@ header{
 }
 
 .form__button{
-    color: #FF0F7B;
+    color: #000123;
     background-color: #FFFFFF;
     border: #FF0F7B;
     border-radius: 0.5rem;
     border-width: 1rem;
-    padding: 0.5rem;
+    padding: 0.3rem;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     margin: 0.3rem;
@@ -207,12 +207,12 @@ header{
 }
 
 .form__button--limpiar{
-    color: #FF0F7B;
+    color: #000123;
     background-color: #FFFFFF;
     border: #FF0F7B;
     border-radius: 0.5rem;
     border-width: 1rem;
-    padding: 0.5rem; 
+    padding: 0.3rem;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     margin: 0.3rem;
@@ -233,7 +233,6 @@ header{
     grid-template-rows: 1fr;
     grid-template-columns: 3% auto;
     align-items: center;
-    
 }
 
 .fieldset__input--nombre{
@@ -241,6 +240,7 @@ header{
     border-radius: 0.5rem;
     border-width: 1rem;
     padding: 0.5rem;
+    color: #000123;
 }
 
 .fieldset__input--apellido{
@@ -248,6 +248,7 @@ header{
     border-radius: 0.5rem;
     border-width: 1rem;
     padding: 0.5rem;
+    color: #000123;
 }
 
 .fieldset__select--nacionalidad{
@@ -255,6 +256,7 @@ header{
     border-radius: 0.5rem;
     border-width: 1rem;
     padding: 0.5rem;
+    color: #000123;
 }
 
 .fieldset__input--email{
@@ -286,7 +288,7 @@ form#form__datos{
 }
 
 .h1__registro{
-    color: #FFFFFF;
+    color: #f6e0de;
     text-align: left;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
@@ -296,7 +298,7 @@ form#form__datos{
 }
 
 .legend{
-    color: #FFFFFF;
+    color: #f6e0de;
     text-align: center;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
@@ -316,7 +318,7 @@ form#form__datos{
 
 
 .fieldset__label--nombre{
-    color: #FFFFFF;
+    color: #f6e0de;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     padding: 1rem;
@@ -325,14 +327,12 @@ form#form__datos{
 }
 
 .fieldset__input nombre{
-    color: #FF0F7B;
     font-family: 'Chakra Petch', sans-serif;
     margin: 0.5rem;
-    
 }
 
 .fieldset__label--apellido{
-    color: #FFFFFF;
+    color: #f6e0de;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     padding: 1rem;
@@ -341,14 +341,13 @@ form#form__datos{
 }
 
 .fieldset__input apellido{
-    color: #FF0F7B;
     text-align: left;
     font-family: 'Chakra Petch', sans-serif;
     margin: 0.5rem;
 }
 
 .fieldset__label--nacionalidad{
-    color: #FFFFFF;
+    color: #f6e0de;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     padding: 1rem;
@@ -357,14 +356,14 @@ form#form__datos{
 }
 
 .fieldset__select--nacionalidad{
-    color: #FF0F7B;
     text-align: left;
     font-family: 'Chakra Petch', sans-serif;
     margin: 0.5rem;
+    color: #000123;
 }
 
 .fieldset__label--email{
-    color: #FFFFFF;
+    color: #f6e0de;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     padding: 1rem;
@@ -373,7 +372,6 @@ form#form__datos{
 }
 
 .fieldset__input email{
-    color: #FF0F7B;
     text-align: left;
     font-family: 'Chakra Petch', sans-serif;
     margin: 0.5rem;
@@ -390,22 +388,22 @@ form#form__datos{
 }
 
 .fieldset__input checkbox{
-    color: #FFFFFF;
+    color: #f6e0de;
     text-align: right;
     display: grid;
 }
 
 .fieldset p{
-    color: #FFFFFF;
+    color: #f6e0de;
     text-align: right;
     font-family: 'Chakra Petch', sans-serif;
     margin: 1rem;
 }
 
 .fieldset__input--btn{
-    color: #FF0F7B;
+    color: #000123;
     background-color: #FFFFFF;
-    border: #FF0F7B;
+    border: #000123;
     border-radius: 0.5rem;
     border-width: 1rem;
     padding: 0.5rem;
@@ -448,9 +446,10 @@ legend{
     height: 15rem;
     width: 19rem;
     padding: 0.3rem;
-    border: 2px outset #FF0F7B;
+    border: 2px outset;
     border-radius : 10px 20px 30px 40px;
-    color: #000;
+    color: #f6e0de;
+    border-color: #FF0F7B;
     background-image: linear-gradient(to right, #FF0F7B, #000123);
 }
 
@@ -485,12 +484,12 @@ legend{
 }
 
 #inicio{
-    color: #FF0F7B;
+    color: #f6e0de;
     text-align: center;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     padding: 1rem;
-    background-color: #FFFFFF;
+    background-color: #FF0F7B;
     margin-top: 3rem;
     margin-bottom: 1rem;
     
@@ -526,7 +525,7 @@ legend{
     text-align: center;
     padding: 2rem;
     font-family: 'Chakra Petch', sans-serif;
-    color: #FF0F7B;
+    color: #d4ccc9;
     justify-content: center;
 }
 
@@ -566,7 +565,6 @@ legend{
 
 .btn__comprar{
     color: #FF0F7B;
-    background-color: #FFFFFF;
     border: #FF0F7B;
     border-radius: 0.5rem;
     padding: 0.5rem;
@@ -608,6 +606,14 @@ legend{
     height: 20rem;
     width: 20rem;
 }
+
+.producto--oferta{
+    color:#f6e0de
+}
+
+.h2__producto--destacado{
+    color: #FF0F7B;
+}
 /*-----------------TERMINA TIENDA----------------*/
 
 /*-----------------EMPIEZA NOSOTRAS----------------*/
@@ -641,7 +647,7 @@ legend{
 
 .p__nosotras{
     padding: 2rem;
-    color: #FFFFFF;
+    color: #f6e0de;
     font-weight: lighter;
     font-family: 'Chakra Petch', sans-serif;
     text-align: center;
@@ -926,4 +932,4 @@ legend{
 
 
 
-/*--------------------------------768px-------------------------------
+/*--------------------------------768px-----------------------------
