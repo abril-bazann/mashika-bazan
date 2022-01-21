@@ -218,7 +218,12 @@ header{
     margin: 0.3rem;
     height: 2rem;
     cursor: pointer;
+}
 
+.form__button--main{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
 }
 
 /*-----------------TERMINA FOOTER/CONTACTO----------------*/
@@ -655,7 +660,7 @@ legend{
 
 
 /*-----------------------------------320px----------------------------------*/
-@media screen and (max-width: 480px){
+@media (max-width: 480px){
     body{
         background-color: #000123;
     }
@@ -696,45 +701,42 @@ legend{
         margin: 1rem;
     }
 
-    main{
-        display: flex;
-        flex-direction: column;
-        flex-flow: row nowrap;
-        justify-content: flex-end;
-        flex-wrap: nowrap;
-        
-    }
 
-    .main{
-        padding: 0.3rem;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-start;
-        flex-direction: column;
-        align-items: center;
-    }
     .main__div__a{
-        margin: 1rem;
+        margin-right: 10rem;
+        padding-left: 0.3rem;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         background-color: #FFFFFF;
-        
+        border-radius: 0.5rem;
+        border-width: 1rem;
+        margin-left: 5rem;
     }
     
     .main__div__a--instagram{
-        display: flex; 
         height: 3rem;
     }
     
     .main__div__a--youtube{
-        display: flex;
         height: 3rem;
     }
+    .main{
+        background-color: #f6e0de;
+        display: flex;
+        flex-direction: column;
+        padding: 0.2rem;
+        align-items: center;
+        flex-flow: row nowrap;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 25rem;
+        width: 15rem;
+    }
+    
     
     .form__textarea{
         font-family: 'Chakra Petch', sans-serif;
-        margin: 0.5rem;
         width: 10rem;
         padding: 1rem;
     }
@@ -770,8 +772,11 @@ legend{
     }
 
     form{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        justify-items: right;
+        justify-content: space-around;
+        grid-template-columns: 50%;
+        margin-left: 2rem;
     }
 
     aside{
@@ -874,11 +879,12 @@ legend{
     }
 
     form#form__datos{
-        text-align: start;
+        grid-area: form__datos;
         display: grid;
-        justify-items: start;
-        justify-content: start;
-
+        justify-items: end;
+        justify-content: space-around;
+        grid-template-columns: 50%;
+        margin-left: 2rem;
     }
 
     .div__producto--destacado{
@@ -908,12 +914,6 @@ legend{
         font-size: 1.5rem;
     }
 
-    .fieldset{
-        margin: 0;
-        padding: 2rem;
-        
-    }
-
     .card{
         height: 13rem;
         width: 20rem;
@@ -925,6 +925,60 @@ legend{
         justify-content: space-evenly;
         padding-bottom: 2rem;
     }
+    .chalamet-img__registro{
+        height: 20rem;
+        width: 20rem;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 1rem;
+        padding: 2rem;
+        
+    }
+
+    .fieldset__select--nacionalidad{
+        width: 9rem;
+    }
+
+    .fieldset__input--apellido{
+        width: 10rem;
+    }
+
+    .fieldset__input--nombre{
+        width: 10rem;
+    }
+
+    .fieldset__input--email{
+        width: 10rem;
+    }
+
+    .fieldset{
+        margin: 1rem;
+        width: 12rem;
+    }
+
+    .form__button--main{
+        margin-right: 10rem;
+        padding-left: 0.3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 0.5rem;
+        border-width: 1rem;
+        margin-left: 5rem;
+    }
+
+    .img__correo{
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        margin-right: 10rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5rem;
+    }
+
+
+
 
 
 }
