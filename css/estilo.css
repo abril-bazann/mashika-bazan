@@ -663,8 +663,10 @@ legend{
 @media (max-width: 480px){
     body{
         background-color: #000123;
+        height: 20rem;
+        width: 20rem;
     }
-    
+
     header{
         display: flex;
         align-content: center;
@@ -986,4 +988,7 @@ legend{
 
 
 
-/*--------------------------------768px-----------------------------
+/*--------------------------------768px-----------------------------*/
+@media (max-width: 768px){
+    /*main*/
+}
