@@ -730,10 +730,14 @@ legend{
         padding: 0.2rem;
         align-items: center;
         flex-flow: row nowrap;
-        justify-content: center;
         flex-wrap: wrap;
         height: 25rem;
         width: 15rem;
+        align-content: center;
+        justify-content: center;
+        padding-left: 4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     
     
