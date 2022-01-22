@@ -69,8 +69,8 @@
 }
 
 .chalamet-img__registro {
-  height: 360px;
-  width: 640px;
+  height: 20rem;
+  width: 22rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,4 +193,6 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
+
+/*nosotras*/
 /*# sourceMappingURL=style.css.map */
