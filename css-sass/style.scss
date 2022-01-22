@@ -71,3 +71,98 @@
         width: 640px;
         display: flex;
     }
+
+    /*tienda*/
+    .div__card{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+
+        a{
+            background-color: #000123;
+            color: #FFFFFF;
+            border: #FF0F7B;
+            border-radius: 0.5rem;
+            border-width: 1rem;
+            padding: 0.5rem;
+            font-family: 'Chakra Petch', sans-serif;
+            font-weight: bold;
+            animation-name: btn__btn-primary--animation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;  
+        }
+    }
+
+    .card{
+        height: 15rem;
+        width: 19rem;
+        padding: 0.3rem;
+        border: 2px outset;
+        border-radius : 10px 20px 30px 40px;
+        color: #f6e0de;
+        border-color: #FF0F7B;
+        background-image: linear-gradient(to right, #FF0F7B, #000123);
+
+        h5{
+            color: #f6e0de;
+        }
+
+        p{
+            font-family: 'Chakra Petch', sans-serif;
+        }
+    }
+
+    .producto__destacado{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+        font-family: 'Chakra Petch', sans-serif;
+        color: #d4ccc9;
+        justify-content: center;
+
+        h2{
+            color: #FF0F7B
+        }
+
+        img{
+            height: 20rem;
+            width: 23rem;
+        }
+    }
+
+    .btn2__primary{
+        background-color: #000123;
+        color: #FFFFFF;
+        border: #FF0F7B;
+        border-radius: 0.5rem;
+        border-width: 1rem;
+        padding: 0.5rem;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+        animation-name: btn__btn-primary--animation;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    .div__btn--comprar{
+        display: flex;
+        padding: 1rem;
+        justify-content: center;
+        justify-items: end;
+
+        button{
+            color: #FF0F7B;
+            border: #FF0F7B;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            font-family: 'Chakra Petch', sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+            animation-name: btn__comprar-animation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+
+    }
