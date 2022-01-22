@@ -1,0 +1,22 @@
+{
+  "name": "mashika-bazan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abril-bazann/mashika-bazan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abril-bazann/mashika-bazan/issues"
+  },
+  "homepage": "https://github.com/abril-bazann/mashika-bazan#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

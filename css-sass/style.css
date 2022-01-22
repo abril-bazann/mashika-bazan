@@ -1,0 +1,70 @@
+.header__navbar ul {
+  padding: 2rem;
+  list-style-type: none;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: 2rem;
+}
+
+.header__navbar li {
+  display: inline-block;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  background-color: #FF0F7B;
+  border-radius: 0.5rem;
+  border-width: 1rem;
+  padding: 0.5rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+
+.header__navbar a {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: initial;
+  font-size: 1.2rem;
+  background-color: #FF0F7B;
+  padding: 0.5rem;
+}
+
+/*registro*/
+.fieldset__input nombre {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0.5rem;
+}
+
+.fieldset__input apellido {
+  text-align: left;
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0.5rem;
+}
+
+.fieldset__input email {
+  text-align: left;
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0.5rem;
+}
+
+.fieldset__input checkbox {
+  color: #f6e0de;
+  text-align: right;
+  display: -ms-grid;
+  display: grid;
+}
+
+.fieldset p {
+  color: #f6e0de;
+  text-align: right;
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
