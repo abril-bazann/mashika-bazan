@@ -933,14 +933,15 @@ legend{
         padding-bottom: 2rem;
     }
 
-    .chalamet-img__registro{
+    .chalamet-img__registro, .chalamet--img{
         height: 20rem;
         width: 20rem;
         display: flex;
         justify-content: flex-end;
         margin-bottom: 1rem;
         padding: 2rem;
-        
+        margin-left: 2rem;
+        margin-right: 4rem;
     }
 
     .fieldset__select--nacionalidad{
