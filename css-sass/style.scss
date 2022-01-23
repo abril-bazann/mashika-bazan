@@ -187,3 +187,26 @@
     }
 
     /*nosotras*/
+    .div__nosotras--h1yp{
+
+        h1{
+            color: #FF0F7B;
+            text-align: center;
+            font-family: 'Chakra Petch', sans-serif;
+            font-weight: bold;
+            padding: 2rem;
+        }
+    }
+
+    .div__nosotras{
+        div{
+            a{
+                img{
+                    &:hover{
+                        border-color: #FF0F7B;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
