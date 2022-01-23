@@ -1,3 +1,4 @@
+/*header*/
 .header__navbar ul {
   padding: 2rem;
   list-style-type: none;
@@ -36,7 +37,17 @@
   padding: 0.5rem;
 }
 
+/*contacto*/
 /*registro*/
+.legend {
+  color: #f6e0de;
+  text-align: center;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
 .fieldset__input nombre {
   font-family: 'Chakra Petch', sans-serif;
   margin: 0.5rem;
@@ -77,6 +88,16 @@
 }
 
 /*tienda*/
+.div__img--lentes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div__img--lentes img:hover {
+  border-color: #FF0F7B;
+}
+
 .div__card {
   display: -webkit-box;
   display: -ms-flexbox;

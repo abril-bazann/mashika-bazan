@@ -271,15 +271,6 @@ form#form__datos{
     margin-right: 6rem;
 }
 
-.legend{
-    color: #f6e0de;
-    text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: bold;
-    padding: 1rem;
-    font-size: 2rem;
-}
-
 .fieldset{
     padding: 1rem;
     display: grid;

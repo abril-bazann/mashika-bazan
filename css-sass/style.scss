@@ -1,3 +1,4 @@
+/*header*/
 .header__navbar{
     ul{
         padding: 2rem;
@@ -30,7 +31,18 @@
         padding: 0.5rem;
     }
 }
+
+    /*contacto*/
+    
     /*registro*/
+    .legend{
+        color: #f6e0de;
+        text-align: center;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+        padding: 1rem;
+        font-size: 2rem;
+    }
 
     .fieldset__input{
         nombre{
@@ -73,6 +85,15 @@
     }
 
     /*tienda*/
+    .div__img--lentes{
+        display: flex;
+        img{
+           &:hover{
+               border-color: #FF0F7B;
+           } 
+        }
+        
+    }
     .div__card{
         display: flex;
         justify-content: space-between;
