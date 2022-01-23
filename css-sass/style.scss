@@ -6,7 +6,7 @@
     .legend{
         color: #f6e0de;
         text-align: center;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         font-weight: bold;
         padding: 1rem;
         font-size: 2rem;
@@ -14,19 +14,19 @@
 
     .fieldset__input{
         nombre{
-            font-family: 'Chakra Petch', sans-serif;
+            font-family: $font;
             margin: 0.5rem; 
         }
 
         apellido{
             text-align: left;
-            font-family: 'Chakra Petch', sans-serif;
+            font-family: $font;
             margin: 0.5rem;
         }
 
         email{
             text-align: left;
-            font-family: 'Chakra Petch', sans-serif;
+            font-family: $font;
             margin: 0.5rem;
         }
 
@@ -41,7 +41,7 @@
         p{
             color: #f6e0de;
             text-align: right;
-            font-family: 'Chakra Petch', sans-serif;
+            font-family: $font;
             margin: 1rem;
         }
     }
@@ -57,7 +57,7 @@
         display: flex;
         img{
            &:hover{
-               border-color: #FF0F7B;
+               border-color: $color-principal;
            } 
         }
         
@@ -68,13 +68,13 @@
         padding-bottom: 2rem;
 
         a{
-            background-color: #000123;
+            background-color: $backgroud-color;
             color: #FFFFFF;
-            border: #FF0F7B;
+            border: $color-principal;
             border-radius: 0.5rem;
             border-width: 1rem;
             padding: 0.5rem;
-            font-family: 'Chakra Petch', sans-serif;
+            font-family: $font;
             font-weight: bold;
             animation-name: btn__btn-primary--animation;
             animation-duration: 4s;
@@ -89,15 +89,15 @@
         border: 2px outset;
         border-radius : 10px 20px 30px 40px;
         color: #f6e0de;
-        border-color: #FF0F7B;
-        background-image: linear-gradient(to right, #FF0F7B, #000123);
+        border-color: $color-principal;
+        background-image: linear-gradient(to right, $color-principal, $backgroud-color);
 
         h5{
             color: #f6e0de;
         }
 
         p{
-            font-family: 'Chakra Petch', sans-serif;
+            font-family: $font;
         }
     }
 
@@ -106,12 +106,12 @@
         flex-direction: column;
         text-align: center;
         padding: 2rem;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         color: #d4ccc9;
         justify-content: center;
 
         h2{
-            color: #FF0F7B
+            color: $color-principal;
         }
 
         img{
@@ -121,13 +121,13 @@
     }
 
     .btn2__primary{
-        background-color: #000123;
+        background-color: $backgroud-color;
         color: #FFFFFF;
-        border: #FF0F7B;
+        border: $color-principal;
         border-radius: 0.5rem;
         border-width: 1rem;
         padding: 0.5rem;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         font-weight: bold;
         animation-name: btn__btn-primary--animation;
         animation-duration: 4s;
@@ -141,11 +141,11 @@
         justify-items: end;
 
         button{
-            color: #FF0F7B;
-            border: #FF0F7B;
+            color: $color-principal;
+            border: $color-principal;
             border-radius: 0.5rem;
             padding: 0.5rem;
-            font-family: 'Chakra Petch', sans-serif;
+            font-family: $font;
             font-weight: bold;
             cursor: pointer;
             animation-name: btn__comprar-animation;
@@ -158,9 +158,9 @@
     .div__nosotras--h1yp{
 
         h1{
-            color: #FF0F7B;
+            color: $color-principal;
             text-align: center;
-            font-family: 'Chakra Petch', sans-serif;
+            font-family: $font;
             font-weight: bold;
             padding: 2rem;
         }
@@ -171,7 +171,7 @@
             a{
                 img{
                     &:hover{
-                        border-color: #FF0F7B;
+                        border-color: $color-principal;
                         transform: scale(1.2);
                     }
                 }
