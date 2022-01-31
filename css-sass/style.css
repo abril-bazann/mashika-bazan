@@ -44,10 +44,20 @@ footer h3 {
   color: #f6e0de;
   padding: 1rem;
   font-family: "Chakra Petch", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer iframe {
   padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 21rem;
 }
 
 /*variables*/

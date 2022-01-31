@@ -5,8 +5,12 @@ footer{
         color: #f6e0de;
         padding: 1rem;
         font-family: $font;
+        display: flex;
+        justify-content: center;
     }
     iframe{
         padding: 0.5rem;
+        display: flex;
+        margin-left: 21rem;
     }
 }
