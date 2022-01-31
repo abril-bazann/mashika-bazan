@@ -60,6 +60,14 @@ footer iframe {
   margin-bottom: 2rem;
 }
 
+#div__card--index {
+  margin: 1rem;
+}
+
+#card__demi img:hover {
+  border-color: #FF0F7B;
+}
+
 /*registro*/
 .legend {
   color: #f6e0de;

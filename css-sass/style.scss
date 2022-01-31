@@ -13,6 +13,18 @@
         margin-bottom: 2rem;
     }
 
+    #div__card--index{
+        margin: 1rem;
+    }
+
+    #card__demi{
+        img{
+            &:hover{
+                border-color: $color-principal;
+            } 
+         }
+    }
+
     /*registro*/
     .legend{
         color: $color-secundario;
