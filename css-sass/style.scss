@@ -2,9 +2,18 @@
 
 @import "footer";
 
+@import "contenido";
+
+    /*index*/
+    .h6_demi{
+        font-family: $font;
+        text-align: center;
+        color: $color-secundario;
+    }
+
     /*registro*/
     .legend{
-        color: #f6e0de;
+        color: $color-secundario;
         text-align: center;
         font-family: $font;
         font-weight: bold;
@@ -31,7 +40,7 @@
         }
 
         checkbox{
-            color: #f6e0de;
+            color: $color-secundario;
             text-align: right;
             display: grid;
         }
@@ -39,7 +48,7 @@
     }
     .fieldset{
         p{
-            color: #f6e0de;
+            color: $color-secundario;
             text-align: right;
             font-family: $font;
             margin: 1rem;
@@ -88,12 +97,12 @@
         padding: 0.3rem;
         border: 2px outset;
         border-radius : 10px 20px 30px 40px;
-        color: #f6e0de;
+        color: $color-secundario;
         border-color: $color-principal;
         background-image: linear-gradient(to right, $color-principal, $backgroud-color);
 
         h5{
-            color: #f6e0de;
+            color: $color-secundario;
         }
 
         p{
