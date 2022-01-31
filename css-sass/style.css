@@ -1,3 +1,4 @@
+/*variables*/
 /*header*/
 .header__navbar ul {
   padding: 2rem;
@@ -37,30 +38,52 @@
   padding: 0.5rem;
 }
 
+/*variables*/
+/*footer*/
+footer h3 {
+  color: #f6e0de;
+  padding: 1rem;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+footer iframe {
+  padding: 0.5rem;
+}
+
+/*variables*/
+/*index*/
+.h6_demi {
+  font-family: "Chakra Petch", sans-serif;
+  text-align: center;
+  color: #f6e0de;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
 /*registro*/
 .legend {
   color: #f6e0de;
   text-align: center;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   font-weight: bold;
   padding: 1rem;
   font-size: 2rem;
 }
 
 .fieldset__input nombre {
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   margin: 0.5rem;
 }
 
 .fieldset__input apellido {
   text-align: left;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   margin: 0.5rem;
 }
 
 .fieldset__input email {
   text-align: left;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   margin: 0.5rem;
 }
 
@@ -74,7 +97,7 @@
 .fieldset p {
   color: #f6e0de;
   text-align: right;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   margin: 1rem;
 }
 
@@ -114,7 +137,7 @@
   border-radius: 0.5rem;
   border-width: 1rem;
   padding: 0.5rem;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   font-weight: bold;
   -webkit-animation-name: btn__btn-primary--animation;
           animation-name: btn__btn-primary--animation;
@@ -141,7 +164,7 @@
 }
 
 .card p {
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
 }
 
 .producto__destacado {
@@ -154,7 +177,7 @@
           flex-direction: column;
   text-align: center;
   padding: 2rem;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   color: #d4ccc9;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -177,7 +200,7 @@
   border-radius: 0.5rem;
   border-width: 1rem;
   padding: 0.5rem;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   font-weight: bold;
   -webkit-animation-name: btn__btn-primary--animation;
           animation-name: btn__btn-primary--animation;
@@ -203,7 +226,7 @@
   border: #FF0F7B;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   font-weight: bold;
   cursor: pointer;
   -webkit-animation-name: btn__comprar-animation;
@@ -218,7 +241,7 @@
 .div__nosotras--h1yp h1 {
   color: #FF0F7B;
   text-align: center;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   font-weight: bold;
   padding: 2rem;
 }
