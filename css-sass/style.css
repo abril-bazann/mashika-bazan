@@ -74,8 +74,9 @@ footer iframe {
   margin: 1rem;
 }
 
-#card__demi img:hover {
+.card img:hover {
   border-color: #FF0F7B;
+  cursor: pointer;
 }
 
 /*registro*/

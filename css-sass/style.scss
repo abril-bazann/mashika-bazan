@@ -17,10 +17,12 @@
         margin: 1rem;
     }
 
-    #card__demi{
+    .card{
+        
         img{
             &:hover{
                 border-color: $color-principal;
+                cursor: pointer;
             } 
          }
     }
