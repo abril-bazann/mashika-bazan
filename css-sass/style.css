@@ -294,6 +294,10 @@ footer iframe {
           animation-iteration-count: infinite;
 }
 
+#img-fluid--2 {
+  margin: auto;
+}
+
 /*nosotras*/
 .div__nosotras--h1yp h1 {
   color: #FF0F7B;
