@@ -1,6 +1,8 @@
 @import "contenido";
+@import "maps";
 @import "header";
 @import "footer";
+@import "bucles";
 
     /*index*/
     .h6_demi{
@@ -137,15 +139,6 @@
     }
 
     .card{
-        height: 15rem;
-        width: 19rem;
-        padding: 0.3rem;
-        border: 2px outset;
-        border-radius : 10px 20px 30px 40px;
-        color: $color-secundario;
-        border-color: $color-principal;
-        background-image: linear-gradient(to right, $color-principal, $backgroud-color);
-
         h5{
             color: $color-secundario;
         }

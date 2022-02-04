@@ -1,5 +1,18 @@
 /*variables*/
 /*variables*/
+.card {
+  background-image: -webkit-gradient(linear, left top, right top, from(#FF0F7B), to(#000123));
+  background-image: linear-gradient(to right, #FF0F7B, #000123);
+  height: 15rem;
+  width: 19rem;
+  padding: 0.3rem;
+  border: 2px outset;
+  border-radius: 10px 20px 30px 40px;
+  color: #f6e0de;
+  border-color: #FF0F7B;
+}
+
+/*variables*/
 /*header*/
 .header__navbar ul {
   padding: 2rem;
@@ -202,18 +215,6 @@ footer iframe {
           animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-}
-
-.card {
-  height: 15rem;
-  width: 19rem;
-  padding: 0.3rem;
-  border: 2px outset;
-  border-radius: 10px 20px 30px 40px;
-  color: #f6e0de;
-  border-color: #FF0F7B;
-  background-image: -webkit-gradient(linear, left top, right top, from(#FF0F7B), to(#000123));
-  background-image: linear-gradient(to right, #FF0F7B, #000123);
 }
 
 .card h5 {

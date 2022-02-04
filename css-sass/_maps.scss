@@ -1,0 +1,22 @@
+@import "contenido";
+
+$estiloCards:(
+    altura: 15rem,
+    ancho: 19rem,
+    relleno: 0.3rem,
+    borde: 2px outset,
+    bordeRadio : 10px 20px 30px 40px,
+    color: $color-secundario,
+    colorBorde: $color-principal,
+    imgFondo: linear-gradient(to right, $color-principal, $backgroud-color),
+);
+.card {
+    background-image: map-get($estiloCards, imgFondo);
+    height: map-get($estiloCards, altura);
+    width: map-get($estiloCards, ancho);
+    padding: map-get($estiloCards, relleno);
+    border: map-get($estiloCards, borde);
+    border-radius: map-get($estiloCards, bordeRadio);
+    color: map-get($estiloCards, color);
+    border-color: map-get($estiloCards, colorBorde);
+}
