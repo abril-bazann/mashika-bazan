@@ -1,4 +1,5 @@
 /*variables*/
+/*variables*/
 /*header*/
 .header__navbar ul {
   padding: 2rem;
@@ -60,7 +61,6 @@ footer iframe {
   margin-left: 20.6rem;
 }
 
-/*variables*/
 /*index*/
 .h6_demi {
   font-family: "Chakra Petch", sans-serif;
@@ -128,7 +128,45 @@ footer iframe {
   display: flex;
 }
 
+/*contacto*/
+.img-fluid {
+  margin-right: 1rem;
+  height: 30rem;
+  width: auto;
+  border: 2px outset;
+  border-radius: 10px 20px 30px 40px;
+  border-color: #FF0F7B;
+}
+
+.img__demi__fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img__demi__fluid img:hover {
+  background-color: #FF0F7B;
+}
+
 /*tienda*/
+.h6_demi--tienda {
+  font-family: "Chakra Petch", sans-serif;
+  text-align: center;
+  color: #f6e0de;
+  font-size: 3rem;
+  margin-right: 1rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#FF0F7B), to(#000123));
+  background-image: linear-gradient(to right, #FF0F7B, #000123);
+}
+
 .div__img--lentes {
   display: -webkit-box;
   display: -ms-flexbox;
