@@ -107,7 +107,7 @@
         color: $color-secundario;
         font-size: 3rem;
         margin-right: 1rem;
-        background-image: linear-gradient(to right, $color-principal, $backgroud-color);
+        background-image: linear-gradient(to right, $color-principal, $background-color);
     }
 
     .div__img--lentes{
@@ -125,7 +125,7 @@
         padding-bottom: 2rem;
 
         a{
-            background-color: $backgroud-color;
+            background-color: $background-color;
             color: #FFFFFF;
             border: $color-principal;
             border-radius: 0.5rem;
@@ -169,7 +169,7 @@
     }
 
     .btn2__primary{
-        background-color: $backgroud-color;
+        background-color: $background-color;
         color: #FFFFFF;
         border: $color-principal;
         border-radius: 0.5rem;
