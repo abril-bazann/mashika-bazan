@@ -307,19 +307,6 @@ form#form__datos{
     text-align: right;
 }
 
-.fieldset__input--btn{
-    color: #000123;
-    background-color: #FFFFFF;
-    border: #000123;
-    border-radius: 0.5rem;
-    border-width: 1rem;
-    padding: 0.5rem;
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: bold;
-    margin: 1rem;
-    cursor: pointer;
-}
-
 .form-check-label{
     color: #FFFFFF;
 }
