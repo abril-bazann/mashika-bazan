@@ -1,0 +1,16 @@
+@import "variables";
+
+/*mixin*/
+/*imgs Demi Lovato x Diff Eyewear*/
+@mixin imgsConParametros($marginR, $height, $width, $border, $borderR, $borderC) {
+    margin-right: $marginR;
+    height: $height;
+    width: $width;
+    border: $border;
+    border-radius : $borderR;
+    border-color: $color-principal;
+  }
+  
+.img-fluid {
+    @include imgsConParametros(1rem, 30rem, auto, 2px outset, 10px 20px 30px 40px, $color-principal);
+  }

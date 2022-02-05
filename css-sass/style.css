@@ -97,6 +97,18 @@ footer iframe {
   margin: 1rem;
 }
 
+/*variables*/
+/*mixin*/
+/*imgs Demi Lovato x Diff Eyewear*/
+.img-fluid {
+  margin-right: 1rem;
+  height: 30rem;
+  width: auto;
+  border: 2px outset;
+  border-radius: 10px 20px 30px 40px;
+  border-color: #FF0F7B;
+}
+
 /*index*/
 .h6_demi {
   font-family: "Chakra Petch", sans-serif;
@@ -165,15 +177,7 @@ footer iframe {
 }
 
 /*contacto*/
-.img-fluid {
-  margin-right: 1rem;
-  height: 30rem;
-  width: auto;
-  border: 2px outset;
-  border-radius: 10px 20px 30px 40px;
-  border-color: #FF0F7B;
-}
-
+/*tienda*/
 .img__demi__fluid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,7 +196,6 @@ footer iframe {
   background-color: #FF0F7B;
 }
 
-/*tienda*/
 .h6_demi--tienda {
   font-family: "Chakra Petch", sans-serif;
   text-align: center;
