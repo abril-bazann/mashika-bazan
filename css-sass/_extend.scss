@@ -1,0 +1,19 @@
+/*extend*/
+.form__button{
+    color: #000123;
+    background-color: #FFFFFF;
+    border: #FF0F7B;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.3rem;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    margin: 0.3rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.form__button--limpiar{
+    @extend .form__button,
+}
+
