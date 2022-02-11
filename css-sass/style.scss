@@ -118,7 +118,7 @@
         justify-content: space-between;
         padding-bottom: 2rem;
 
-        a{
+        .card-img-top{
             background-color: $background-color;
             color: #FFFFFF;
             border: $color-principal;
@@ -129,7 +129,8 @@
             font-weight: bold;
             animation-name: btn__btn-primary--animation;
             animation-duration: 4s;
-            animation-iteration-count: infinite;  
+            animation-iteration-count: infinite;
+            margin-bottom: 1rem;  
         }
     }
 
@@ -224,3 +225,68 @@
             }
         }
     }
+@media (max-width: 480px){
+    #div__card--index{
+        display: flex;
+        margin-top: 2rem;
+        width: 20rem;
+        padding: 1rem;
+        flex-direction: column;
+        a{
+            background-color: $background-color;
+            color: #FFFFFF;
+            border: $color-principal;
+            border-radius: 0.5rem;
+            border-width: 1rem;
+            padding: 0.5rem;
+            font-family: $font;
+            font-weight: bold;
+            animation-name: btn__btn-primary--animation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;  
+        }
+    }
+    
+    .card-body{
+        
+        padding: 1rem;
+        
+    }
+    
+    #card-uno{
+        padding: auto;
+        margin-bottom: 2rem;
+    }
+    
+    #card-dos{
+        padding: auto;
+        margin-bottom: 2rem;
+    }
+    
+    #card-tres{
+        padding: auto;
+        margin-bottom: 2rem;
+    }
+    
+    .card-img-top{
+        animation-name: btn__btn-primary--animation;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        width: 10rem;
+        height: auto;
+        background-color: $background-color;
+        color: #FFFFFF;
+        border: $color-principal;
+        border-radius: 0.5rem;
+        border-width: 1rem;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    
+    @keyframes card-img-top {
+        0%{background-color: #000123;}
+        40%{background-color: #FF0F7B;}
+        100%{background-color: #000123;}
+    }
+}

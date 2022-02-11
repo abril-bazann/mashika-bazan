@@ -226,7 +226,7 @@ footer iframe {
   padding-bottom: 2rem;
 }
 
-.div__card a {
+.div__card .card-img-top {
   background-color: #000123;
   color: #FFFFFF;
   border: #FF0F7B;
@@ -241,6 +241,7 @@ footer iframe {
           animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  margin-bottom: 1rem;
 }
 
 .card h5 {
@@ -338,5 +339,90 @@ footer iframe {
   border-color: #FF0F7B;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+@media (max-width: 480px) {
+  #div__card--index {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #div__card--index a {
+    background-color: #000123;
+    color: #FFFFFF;
+    border: #FF0F7B;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bold;
+    -webkit-animation-name: btn__btn-primary--animation;
+            animation-name: btn__btn-primary--animation;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  .card-body {
+    padding: 1rem;
+  }
+  #card-uno {
+    padding: auto;
+    margin-bottom: 2rem;
+  }
+  #card-dos {
+    padding: auto;
+    margin-bottom: 2rem;
+  }
+  #card-tres {
+    padding: auto;
+    margin-bottom: 2rem;
+  }
+  .card-img-top {
+    -webkit-animation-name: btn__btn-primary--animation;
+            animation-name: btn__btn-primary--animation;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    width: 10rem;
+    height: auto;
+    background-color: #000123;
+    color: #FFFFFF;
+    border: #FF0F7B;
+    border-radius: 0.5rem;
+    border-width: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  @-webkit-keyframes card-img-top {
+    0% {
+      background-color: #000123;
+    }
+    40% {
+      background-color: #FF0F7B;
+    }
+    100% {
+      background-color: #000123;
+    }
+  }
+  @keyframes card-img-top {
+    0% {
+      background-color: #000123;
+    }
+    40% {
+      background-color: #FF0F7B;
+    }
+    100% {
+      background-color: #000123;
+    }
+  }
 }
 /*# sourceMappingURL=style.css.map */
