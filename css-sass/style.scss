@@ -690,5 +690,32 @@
         flex-wrap: wrap;
         
     }
-    
+
+    /*registro*/
+    form#form__datos{
+        grid-area: form__datos;
+        display: grid;
+        justify-items: end;
+        justify-content: end;
+        grid-template-columns: 50%;
+        justify-items: center;
+    }
+
+    aside#aside__h1--registro{
+        justify-content: end;
+    }
+
+    .legend {
+        color: #f6e0de;
+        text-align: center;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: bold;
+        padding: 1rem;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
 }
