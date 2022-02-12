@@ -649,4 +649,10 @@
         40%{background-color: $color-principal;}
         100%{background-color: $background-color;}
     }
+
+    /*card tienda*/
+    .div__card{
+        display: flex;
+
+    }
 }
