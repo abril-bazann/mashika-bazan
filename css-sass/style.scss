@@ -653,6 +653,21 @@
     /*card tienda*/
     .div__card{
         display: flex;
+        flex-direction: column;
 
+        .card{
+            margin-bottom: 1rem;
+        }
+    }
+
+    .img__demi__fluid{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: center;
+        img{
+            height: auto;
+            width: auto;
+        }
     }
 }
