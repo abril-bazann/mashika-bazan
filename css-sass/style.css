@@ -15,7 +15,7 @@
 /*variables*/
 /*header*/
 .header__navbar ul {
-  padding: 2rem;
+  padding: 1.5rem;
   list-style-type: none;
   text-align: right;
   display: -webkit-box;
@@ -50,6 +50,15 @@
   font-size: 1.2rem;
   background-color: #FF0F7B;
   padding: 0.5rem;
+}
+
+.header__navbar a:hover {
+  color: #000123;
+}
+
+.header__navbar .header__navbar--li aos-init aos-animate {
+  padding: 0.5rem;
+  margin: 0.3rem;
 }
 
 /*variables*/
@@ -396,6 +405,9 @@ footer iframe {
     height: 100px;
     padding: 0.1rem;
     margin: 1rem;
+  }
+  header {
+    padding: 2rem;
   }
   .main__div__a {
     margin-right: 10rem;
