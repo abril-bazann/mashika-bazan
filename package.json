@@ -1,7 +1,7 @@
 {
   "name": "mashika-bazan",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este proyecto se hizo a través de la enseñanza del curso Desarrollo Web de CoderHouse. Hace referencia a un negocio que comercializa lentes de sol fundada por mujeres latinoamericanas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
