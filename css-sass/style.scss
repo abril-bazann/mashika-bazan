@@ -19,14 +19,14 @@
 }
 
 .alert{
-    color: #000123;
-    background-color: #f6e0de;
-    border: #FF0F7B;
+    color: $background-color;
+    background-color: $color-secundario;
+    border: $color-principal;
     margin-top: 1rem;
 }
 
 body{
-    background-color: #000123;
+    background-color: $background-color;
 }
 
 header{
@@ -34,9 +34,9 @@ header{
 }
 
 .h1{
-    color: #FF0F7B;
+    color: $color-principal;
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     font-weight: bold;
 }
 
@@ -46,15 +46,15 @@ header{
 }
 
 .btn__productos{
-    background-color: #FF0F7B;
-    color: #f6e0de;
+    background-color: $color-principal;
+    color: $color-secundario;
     display:block;
     margin:auto;
-    border: #FF0F7B;
+    border: $color-principal;
     border-radius: 0.5rem;
     border-width: 1rem;
     padding: 0.5rem;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     font-weight: bold;
 }
 
@@ -95,13 +95,13 @@ header{
 
 .h2--contactate{
     text-align: left;
-    color: #f6e0de;
+    color: $color-secundario;
     padding: 1rem;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
 }
 
 .main{
-    background-color: #FF0F7B;
+    background-color: $color-principal;
     padding: 1rem;
     display: flex;
     flex-flow: row nowrap;
@@ -139,26 +139,26 @@ header{
 }
 
 .form__textarea{
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     margin: 1rem;
     padding: 0.5rem;
-    border: #000123;
+    border: $background-color;
     border-radius: 0.5rem;
     border-width: 1rem;
 }   
 
 .h3__section{
-    color: #f6e0de;
+    color: $color-secundario;
     padding: 1rem;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
 }
 
 .div__ubicacion--tel{
     padding: 1rem;
-    color: #f6e0de;
+    color: $color-secundario;
     font-weight: lighter;
-    font-family: 'Chakra Petch', sans-serif;
-    background-color: #FF0F7B;
+    font-family: $font;
+    background-color: $color-principal;
     text-align: right;
 }
 
@@ -190,31 +190,31 @@ header{
 }
 
 .fieldset__input--nombre{
-    border: #000123;
+    border: $background-color;
     border-radius: 0.5rem;
     border-width: 1rem;
     padding: 0.5rem;
-    color: #000123;
+    color: $background-color;
 }
 
 .fieldset__input--apellido{
-    border: #000123;
+    border: $background-color;
     border-radius: 0.5rem;
     border-width: 1rem;
     padding: 0.5rem;
-    color: #000123;
+    color: $background-color;
 }
 
 .fieldset__select--nacionalidad{
-    border: #000123;
+    border: $background-color;
     border-radius: 0.5rem;
     border-width: 1rem;
     padding: 0.5rem;
-    color: #000123;
+    color: $background-color;
 }
 
 .fieldset__input--email{
-    border: #000123;
+    border: $background-color;
     border-radius: 0.5rem;
     border-width: 1rem;
     padding: 0.5rem;
@@ -242,9 +242,9 @@ form#form__datos{
 }
 
 .h1__registro{
-    color: #f6e0de;
+    color: $color-secundario;
     text-align: left;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     font-weight: bold;
     font-size: 2rem;
     padding-bottom: 0.5rem;
@@ -256,15 +256,15 @@ form#form__datos{
     display: grid;
     justify-items: end;
     justify-content: space-around;
-    background-color: #FF0F7B;
+    background-color: $color-principal;
     background: rgb(209,178,176);
     background: linear-gradient(90deg, rgba(209,178,176,1) 0%, rgba(0,1,35,1) 100%);
 }
 
 
 .fieldset__label--nombre{
-    color: #f6e0de;
-    font-family: 'Chakra Petch', sans-serif;
+    color: $color-secundario;
+    font-family: $font;
     font-weight: bold;
     padding: 1rem;
     display:block;
@@ -272,8 +272,8 @@ form#form__datos{
 }
 
 .fieldset__label--apellido{
-    color: #f6e0de;
-    font-family: 'Chakra Petch', sans-serif;
+    color: $color-secundario;
+    font-family: $font;
     font-weight: bold;
     padding: 1rem;
     display:block;
@@ -281,8 +281,8 @@ form#form__datos{
 }
 
 .fieldset__label--nacionalidad{
-    color: #f6e0de;
-    font-family: 'Chakra Petch', sans-serif;
+    color: $color-secundario;
+    font-family: $font;
     font-weight: bold;
     padding: 1rem;
     display:block;
@@ -291,14 +291,14 @@ form#form__datos{
 
 .fieldset__select--nacionalidad{
     text-align: left;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     margin: 0.5rem;
-    color: #000123;
+    color: $background-color;
 }
 
 .fieldset__label--email{
-    color: #f6e0de;
-    font-family: 'Chakra Petch', sans-serif;
+    color: $color-secundario;
+    font-family: $font;
     font-weight: bold;
     padding: 1rem;
     display: block;
@@ -308,7 +308,7 @@ form#form__datos{
 .fieldset__label--acepto{
     color: #FFFFFF;
     text-align: left;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     font-weight: bold;
     padding: 1rem;
     display:block;
@@ -325,9 +325,9 @@ legend{
 }
 
 @keyframes legend-animation {
-    0%{background-color: #000123; width: 2rem;}
-    40%{background-color: #000123;}
-    100%{background-color: #000123;}
+    0%{background-color: $background-color; width: 2rem;}
+    40%{background-color: $background-color;}
+    100%{background-color: $background-color;}
 }
 
 
@@ -340,9 +340,9 @@ legend{
 }
 
 @keyframes btn__btn-primary--animation {
-    0%{background-color: #000123;}
-    40%{background-color: #FF0F7B;}
-    100%{background-color: #000123;}
+    0%{background-color: $background-color;}
+    40%{background-color: $color-principal;}
+    100%{background-color: $background-color;}
 }
 
 .card-header, .card-body, .card-text{
@@ -350,12 +350,12 @@ legend{
 }
 
 #inicio{
-    color: #f6e0de;
+    color: $color-secundario;
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     font-weight: bold;
     padding: 1rem;
-    background-color: #FF0F7B;
+    background-color: $color-principal;
     margin-top: 3rem;
     margin-bottom: 1rem;
     
@@ -365,7 +365,7 @@ legend{
     padding: 0.5rem;
     color: #FFFFFF;
     font-weight: lighter;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     text-align: center;
 }
 
@@ -373,7 +373,7 @@ legend{
     padding: 0.5rem;
     color: #FFFFFF;
     font-weight: lighter;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     text-align: center;
 }
 
@@ -381,7 +381,7 @@ legend{
     padding: 0.5rem;
     color: #FFFFFF;
     font-weight: lighter;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     text-align: center;
 }
 
@@ -390,7 +390,7 @@ legend{
     flex-direction: column;
     text-align: center;
     padding: 2rem;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     color: #d4ccc9;
     justify-content: center;
 }
@@ -402,7 +402,7 @@ legend{
 }
 
 .div__a--subir{
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     font-weight: bold;
     position: fixed;
     top: 0;
@@ -415,8 +415,8 @@ legend{
 
 @keyframes btn__comprar-animation {
     0%{background-color: #FFFFFF;}
-    40%{background-color: #000123;}
-    80%{background-color: #000123;}
+    40%{background-color: $background-color;}
+    80%{background-color: $background-color;}
     90%{background-color: #0f102b;}
     100%{background-color: #FFFFFF;}
 }
@@ -431,7 +431,7 @@ legend{
 }
 
 .producto--oferta{
-    color:#f6e0de
+    color:$color-secundario
 }
 
 /*-----------------TERMINA TIENDA----------------*/
@@ -443,9 +443,9 @@ legend{
 }
 
 .h1__nosotras{
-    color: #FF0F7B;
+    color: $color-principal;
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     font-weight: bold;
     padding: 2rem;
 }
@@ -460,16 +460,16 @@ legend{
     flex-direction: column;
     text-align: center;
     padding: 2rem;
-    font-family: 'Chakra Petch', sans-serif;
-    color: #FF0F7B;
+    font-family: $font;
+    color: $color-principal;
     justify-content: center;
 }
 
 .p__nosotras{
     padding: 2rem;
-    color: #f6e0de;
+    color: $color-secundario;
     font-weight: lighter;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: $font;
     text-align: center;
 }
 
@@ -693,11 +693,11 @@ legend{
             }
         }
     }
-    
+
     /*-----------------------------------320px----------------------------------*/
 @media (max-width: 480px){
     body{
-        background-color: #000123;
+        background-color: $background-color;
         height: 30rem;
         width: 20rem;
     }
@@ -720,9 +720,9 @@ legend{
     }
     
     .header__navbar li{
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         font-weight: bold;
-        background-color: #FF0F7B;
+        background-color: $color-principal;
         border-radius: 0.5rem;
         border-width: 1rem;
         padding: 0.5rem;
@@ -760,7 +760,7 @@ legend{
         height: 3rem;
     }
     .main{
-        background-color: #f6e0de;
+        background-color: $color-secundario;
         display: flex;
         flex-direction: column;
         padding: 0.2rem;
@@ -778,7 +778,7 @@ legend{
     
     
     .form__textarea{
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         width: 10rem;
         padding: 1rem;
     }
@@ -786,8 +786,8 @@ legend{
     .div__ubicacion--tel{
         color: #FFFFFF;
         font-weight: lighter;
-        font-family: 'Chakra Petch', sans-serif;
-        background-color: #FF0F7B;
+        font-family: $font;
+        background-color: $color-principal;
         text-align: center;
     }
 
@@ -802,7 +802,7 @@ legend{
     .h3__section{
         color: #FFFFFF;
         padding: 1rem;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         text-align: center;
     }
 
@@ -826,9 +826,9 @@ legend{
     }
 
     #inicio{
-        color: #FF0F7B;
+        color: $color-principal;
         text-align: center;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         font-weight: bold;
         background-color: #FFFFFF;
         font-size: medium;
@@ -877,8 +877,8 @@ legend{
         flex-direction: column;
         text-align: center;
         padding-top: 2rem;
-        font-family: 'Chakra Petch', sans-serif;
-        color: #FF0F7B;
+        font-family: $font;
+        color: $color-principal;
     }
 
     .div__producto--destacado{
@@ -949,7 +949,7 @@ legend{
     .h1__registro{
         color: #FFFFFF;
         text-align: center;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         font-weight: bold;
         padding: 0rem;
         margin: 0rem;
@@ -959,7 +959,7 @@ legend{
     .card{
         height: 13rem;
         width: 20rem;
-        border:2px outset #FF0F7B;
+        border:2px outset $color-principal;
         border-radius : 10px 20px 30px 40px;
         color: #000;
         background-color: #e1e2fa;
@@ -1022,7 +1022,7 @@ legend{
     }
 
     body{
-        background-color: #000123;
+        background-color: $background-color;
         height: 15rem;
         width: 10rem;
     }
@@ -1535,9 +1535,9 @@ legend{
     }
 
     .legend {
-        color: #f6e0de;
+        color: $color-secundario;
         text-align: center;
-        font-family: "Chakra Petch", sans-serif;
+        font-family: $font;
         font-weight: bold;
         padding: 1rem;
         font-size: 2rem;
@@ -1553,7 +1553,7 @@ legend{
 @media (max-width: 768px){
    
     body{
-        background-color: #000123;
+        background-color: $background-color;
         height: 32rem;
         width: 22rem;
     }
@@ -1576,9 +1576,9 @@ legend{
     }
     
     .header__navbar li{
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         font-weight: bold;
-        background-color: #FF0F7B;
+        background-color: $color-principal;
         border-radius: 0.5rem;
         border-width: 1rem;
         padding: 0.5rem;
@@ -1615,7 +1615,7 @@ legend{
     }
 
     .form__textarea{
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         width: 10rem;
         padding: 1rem;
     }    
@@ -1665,7 +1665,7 @@ legend{
     .h3__section{
         color: #FFFFFF;
         padding: 1rem;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $font;
         text-align: center;
     }
     .iframe{
