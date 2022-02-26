@@ -795,8 +795,10 @@ legend{
         display: flex;
     }
 
-    .iframe{
+    footer{ 
+        iframe{
         padding: 0.5rem;
+        }
     }
 
     .h3__section{
@@ -1159,6 +1161,7 @@ legend{
 
     .iframe{
         padding: 0.5rem;
+        margin-left: 3rem;
     }
 
     .h3__section{

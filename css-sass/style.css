@@ -80,7 +80,7 @@ footer iframe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 20.6rem;
+  margin-left: 20.8rem;
 }
 
 /*variables*/
@@ -1093,7 +1093,7 @@ legend {
     display: -ms-flexbox;
     display: flex;
   }
-  .iframe {
+  footer iframe {
     padding: 0.5rem;
   }
   .h3__section {
@@ -1547,6 +1547,7 @@ legend {
   }
   .iframe {
     padding: 0.5rem;
+    margin-left: 3rem;
   }
   .h3__section {
     color: #FFFFFF;
