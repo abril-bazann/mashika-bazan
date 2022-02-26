@@ -817,6 +817,7 @@ legend {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 2rem;
 }
 
 .img__demi__fluid img:hover {
@@ -850,7 +851,7 @@ legend {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 2rem;
+  padding: 1rem;
 }
 
 .div__card .card-img-top {

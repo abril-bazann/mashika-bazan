@@ -557,6 +557,7 @@ legend{
         margin-bottom: 1rem;
         margin-top: 2rem;
         align-items: center;
+        padding: 2rem;
         img{
             &:hover{
                 background-color: $color-principal;
@@ -585,7 +586,7 @@ legend{
     .div__card{
         display: flex;
         justify-content: space-between;
-        padding-bottom: 2rem;
+        padding: 1rem;
 
         .card-img-top{
             background-color: $background-color;
