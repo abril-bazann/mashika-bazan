@@ -567,7 +567,7 @@ legend {
 }
 
 #inicio {
-  color: #f6e0de;
+  color: #FFFFFF;
   text-align: center;
   font-family: "Chakra Petch", sans-serif;
   font-weight: bold;
@@ -932,6 +932,10 @@ legend {
       -ms-flex-pack: center;
           justify-content: center;
   justify-items: end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 7rem;
 }
 
 .div__btn--comprar button {

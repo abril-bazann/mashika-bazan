@@ -350,7 +350,7 @@ legend{
 }
 
 #inicio{
-    color: $color-secundario;
+    color: #FFFFFF;
     text-align: center;
     font-family: $font;
     font-weight: bold;
@@ -652,6 +652,8 @@ legend{
         padding: 1rem;
         justify-content: center;
         justify-items: end;
+        justify-content: flex-start;
+        margin-left: 7rem;
 
         button{
             color: $color-principal;
