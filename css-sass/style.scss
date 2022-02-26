@@ -696,6 +696,29 @@ legend{
         }
     }
 
+    .div-p-nosotras{
+        background-color: #ffffff10; backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        padding-bottom: 1rem;
+        border-radius: 20px 40px;
+        margin-bottom: 2rem;
+        p{
+            &:first-letter{
+                  font-size: $font-size;
+                  margin-right: 0.5rem;
+                  color: #FFFFFF;
+                  font-family: $font;
+            } 
+         }
+         .p-nosotras{
+             padding: 1rem;
+             color: #FFFFFF;
+             font-family: $font;
+             text-align: center;
+            
+            }
+    }
+
     /*-----------------------------------320px----------------------------------*/
 @media (max-width: 480px){
     body{
