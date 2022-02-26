@@ -534,8 +534,8 @@ legend {
 /*-----------------TERMINA REGISTRO----------------*/
 /*-----------------EMPIEZA TIENDA----------------*/
 .div__img--lentes img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @-webkit-keyframes btn__btn-primary--animation {
