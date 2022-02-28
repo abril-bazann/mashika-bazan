@@ -1,0 +1,859 @@
+    /*-----------------------------------320px----------------------------------*/
+    @media (max-width: 480px){
+        body{
+            background-color: $background-color;
+            height: 30rem;
+            width: 20rem;
+        }
+    
+        header{
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+            padding: 3rem;
+        }
+    
+        .header__navbar ul{
+            padding: 2rem;
+            margin-left: 2rem;
+            flex-direction: column;
+        }
+        
+        .header__navbar li{
+            font-family: $font;
+            font-weight: bold;
+            background-color: $color-principal;
+            border-radius: 0.5rem;
+            border-width: 1rem;
+            padding: 0.5rem;
+            margin: 0.3rem;
+            text-align: center;
+        }
+    
+        .logo{
+            flex-direction: column;
+            justify-content: center;
+            width: 300px;
+            height: 100px;
+            padding: 0.1rem;
+            margin: 1rem;
+        }
+    
+    
+        .main__div__a{
+            margin-right: 10rem;
+            padding-left: 0.3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: #FFFFFF;
+            border-radius: 0.5rem;
+            border-width: 1rem;
+            margin-left: 5rem;
+        }
+        
+        .main__div__a--instagram{
+            height: 3rem;
+        }
+        
+        .main__div__a--youtube{
+            height: 3rem;
+        }
+        .main{
+            background-color: $color-secundario;
+            display: flex;
+            flex-direction: column;
+            padding: 0.2rem;
+            align-items: center;
+            flex-flow: row nowrap;
+            flex-wrap: wrap;
+            height: 25rem;
+            width: 15rem;
+            align-content: center;
+            justify-content: center;
+            padding-left: 4rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        
+        
+        .form__textarea{
+            font-family: $font;
+            width: 10rem;
+            padding: 1rem;
+        }
+        
+        .div__ubicacion--tel{
+            color: #FFFFFF;
+            font-weight: lighter;
+            font-family: $font;
+            background-color: $color-principal;
+            text-align: center;
+        }
+    
+        .div{
+            display: flex;
+        }
+    
+        footer{ 
+            iframe{
+            padding: 0.5rem;
+            }
+        }
+    
+        .h3__section{
+            color: #FFFFFF;
+            padding: 1rem;
+            font-family: $font;
+            text-align: center;
+        }
+    
+        .section__ubicacion{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+    
+        form{
+            display: grid;
+            justify-items: right;
+            justify-content: space-around;
+            grid-template-columns: 50%;
+            margin-left: 2rem;
+        }
+    
+        aside{
+            display: none;
+        }
+    
+        #inicio{
+            color: $color-principal;
+            text-align: center;
+            font-family: $font;
+            font-weight: bold;
+            background-color: #FFFFFF;
+            font-size: medium;
+        }
+    
+        .div__inicio{
+            display: flex;
+    
+        }
+        
+        .div__img--lentes{
+            align-content: center;
+            margin: 5rem;
+            display: inline-block;
+            margin: 1rem;
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+    
+        .img__tienda{
+            height: 20rem;
+            width: 20rem;
+    
+        }
+    
+        .div__descuento{
+            text-align: center;
+        }
+    
+        .div__productos{
+            flex-direction: column;
+            padding: 3rem;
+            margin: 1rem;
+            display: none;
+        }
+    
+        #img__lente3{
+            margin-left: 0;
+        }
+    
+        .producto__destacado{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-top: 2rem;
+            font-family: $font;
+            color: $color-principal;
+        }
+    
+        .div__producto--destacado{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    
+        .fieldset__tienda--p1{
+            height: 5.1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .fieldset__tienda--p2{
+            height: 5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .fieldset__tienda--p3{
+            height: 3.7rem;
+            margin-bottom: 1rem;
+        }
+    
+        #div__registro{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            align-content: stretch;
+        }
+            
+    
+        aside#aside__h1--registro{
+            display: grid;
+            grid-template-columns: 50%;
+            justify-items: start;
+            justify-content: space-around;
+            
+        }
+    
+        form#form__datos{
+            grid-area: form__datos;
+            display: grid;
+            justify-items: end;
+            justify-content: space-around;
+            grid-template-columns: 50%;
+            margin-left: 2rem;
+        }
+    
+        .div__producto--destacado{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+    
+        .img__producto--destacado{
+            padding: 3rem;
+            margin: 1rem;
+            
+        }
+    
+        .img__lentes--registro{
+            display: none;
+        }
+    
+        .h1__registro{
+            color: #FFFFFF;
+            text-align: center;
+            font-family: $font;
+            font-weight: bold;
+            padding: 0rem;
+            margin: 0rem;
+            font-size: 1.5rem;
+        }
+    
+        .card{
+            height: 13rem;
+            width: 20rem;
+            border:2px outset $color-principal;
+            border-radius : 10px 20px 30px 40px;
+            color: #000;
+            background-color: #e1e2fa;
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 2rem;
+        }
+    
+        .chalamet-img__registro, .chalamet--img{
+            height: 20rem;
+            width: 20rem;
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 1rem;
+            padding: 2rem;
+            margin-left: 2rem;
+            margin-right: 4rem;
+        }
+    
+        .fieldset__select--nacionalidad{
+            width: 9rem;
+        }
+    
+        .fieldset__input--apellido{
+            width: 10rem;
+        }
+    
+        .fieldset__input--nombre{
+            width: 10rem;
+        }
+    
+        .fieldset__input--email{
+            width: 10rem;
+        }
+    
+        .fieldset{
+            margin: 1rem;
+            width: 12rem;
+        }
+    
+        .form__button--main{
+            margin-right: 10rem;
+            padding-left: 0.3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            border-radius: 0.5rem;
+            border-width: 1rem;
+            margin-left: 5rem;
+        }
+    
+        .img__correo{
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            margin-right: 10rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-left: 5rem;
+        }
+    
+        body{
+            background-color: $background-color;
+            height: 15rem;
+            width: 10rem;
+        }
+    
+        header{
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+            padding: 3rem;
+        }
+    
+        .main{
+            background: rgb(255,15,123);
+            background: linear-gradient(180deg, rgba(255,15,123,1) 6%, rgba(100,26,195,1) 65%, rgba(80,19,191,1) 80%);
+            display: flex;
+            flex-direction: column;
+            padding: 0.2rem;
+            flex-flow: row nowrap;
+            height: 32rem;
+            width: 22rem;
+            justify-content: flex-start;
+            padding-left: 4rem;
+            margin-left: 0.3rem;
+            margin-right: 1rem;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+    
+        body{
+            background-color: $background-color;
+            height: 30rem;
+            width: 20rem;
+        }
+    
+        header{
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+            padding: 3rem;
+        }
+    
+        .header__navbar ul{
+            padding: 2rem;
+            margin-left: 2rem;
+            flex-direction: column;
+        }
+        
+        .header__navbar li{
+            font-family: $font;
+            font-weight: bold;
+            background-color: $color-principal;
+            border-radius: 0.5rem;
+            border-width: 1rem;
+            padding: 0.5rem;
+            margin: 0.3rem;
+            text-align: center;
+        }
+    
+        .logo{
+            flex-direction: column;
+            justify-content: center;
+            width: 300px;
+            height: 100px;
+            padding: 0.1rem;
+            margin: 1rem;
+        }
+    
+        header{
+            padding: 2rem;
+        }
+    
+        .main__div__a{
+            margin-right: 10rem;
+            padding-left: 0.3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: #FFFFFF;
+            border-radius: 0.5rem;
+            border-width: 1rem;
+            margin-left: 5rem;
+        }
+        
+        .main__div__a--instagram{
+            height: 3rem;
+        }
+        
+        .main__div__a--youtube{
+            height: 3rem;
+        }
+        .main{
+            background-color: $color-secundario;
+            display: flex;
+            flex-direction: column;
+            padding: 0.2rem;
+            align-items: center;
+            flex-flow: row nowrap;
+            flex-wrap: wrap;
+            height: 25rem;
+            width: 15rem;
+            align-content: center;
+            justify-content: center;
+            padding-left: 4rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        
+        
+        .form__textarea{
+            font-family: $font;
+            width: 10rem;
+            padding: 1rem;
+        }
+        
+        .div__ubicacion--tel{
+            color: #FFFFFF;
+            font-weight: lighter;
+            font-family: $font;
+            background-color: $color-principal;
+            text-align: center;
+        }
+    
+        .div{
+            display: flex;
+        }
+    
+        .iframe{
+            padding: 0.5rem;
+            margin-left: 3rem;
+        }
+    
+        .h3__section{
+            color: #FFFFFF;
+            padding: 1rem;
+            font-family: $font;
+            text-align: center;
+        }
+    
+        .section__ubicacion{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+    
+        form{
+            display: grid;
+            justify-items: right;
+            justify-content: space-around;
+            grid-template-columns: 50%;
+            margin-left: 2rem;
+        }
+    
+        aside{
+            display: none;
+        }
+    
+        #inicio{
+            color: $color-principal;
+            text-align: center;
+            font-family: $font;
+            font-weight: bold;
+            background-color: #FFFFFF;
+            font-size: medium;
+        }
+    
+        .div__inicio{
+            display: flex;
+    
+        }
+        
+        .div__img--lentes{
+            align-content: center;
+            margin: 5rem;
+            display: inline-block;
+            margin: 1rem;
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+    
+        .img__tienda{
+            height: 20rem;
+            width: 20rem;
+    
+        }
+    
+        .div__descuento{
+            text-align: center;
+        }
+    
+        .div__productos{
+            flex-direction: column;
+            padding: 3rem;
+            margin: 1rem;
+            display: none;
+        }
+    
+        #img__lente3{
+            margin-left: 0;
+        }
+    
+        .producto__destacado{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-top: 2rem;
+            font-family: $font;
+            color: $color-principal;
+        }
+    
+        .div__producto--destacado{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    
+        .fieldset__tienda--p1{
+            height: 5.1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .fieldset__tienda--p2{
+            height: 5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .fieldset__tienda--p3{
+            height: 3.7rem;
+            margin-bottom: 1rem;
+        }
+    
+        #div__registro{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            align-content: stretch;
+        }
+            
+    
+        aside#aside__h1--registro{
+            display: grid;
+            grid-template-columns: 50%;
+            justify-items: start;
+            justify-content: space-around;
+            
+        }
+    
+        form#form__datos{
+            grid-area: form__datos;
+            display: grid;
+            justify-items: end;
+            justify-content: space-around;
+            grid-template-columns: 50%;
+            margin-left: 2rem;
+        }
+    
+        .div__producto--destacado{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+    
+        .img__producto--destacado{
+            padding: 3rem;
+            margin: 1rem;
+            
+        }
+    
+        .img__lentes--registro{
+            display: none;
+        }
+    
+        .h1__registro{
+            color: #FFFFFF;
+            text-align: center;
+            font-family: $font;
+            font-weight: bold;
+            padding: 0rem;
+            margin: 0rem;
+            font-size: 1.5rem;
+        }
+    
+        .card{
+            height: 13rem;
+            width: 20rem;
+            border:2px outset $color-principal;
+            border-radius : 10px 20px 30px 40px;
+            color: #000;
+            background-color: #e1e2fa;
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 2rem;
+        }
+    
+        .chalamet-img__registro, .chalamet--img{
+            height: 20rem;
+            width: 20rem;
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 1rem;
+            padding: 2rem;
+            margin-left: 2rem;
+            margin-right: 4rem;
+        }
+    
+        .fieldset__select--nacionalidad{
+            width: 9rem;
+        }
+    
+        .fieldset__input--apellido{
+            width: 10rem;
+        }
+    
+        .fieldset__input--nombre{
+            width: 10rem;
+        }
+    
+        .fieldset__input--email{
+            width: 10rem;
+        }
+    
+        .fieldset{
+            margin: 1rem;
+            width: 12rem;
+        }
+    
+        .form__button--main{
+            margin-right: 10rem;
+            padding-left: 0.3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            border-radius: 0.5rem;
+            border-width: 1rem;
+            margin-left: 5rem;
+        }
+    
+        .img__correo{
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            margin-right: 10rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-left: 5rem;
+        }
+    
+        body{
+            background-color: $background-color;
+            height: 15rem;
+            width: 10rem;
+        }
+    
+        header{
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+            padding: 3rem;
+        }
+    
+        .main{
+            background: rgb(255,15,123);
+            background: linear-gradient(180deg, rgba(255,15,123,1) 6%, rgba(100,26,195,1) 65%, rgba(80,19,191,1) 80%);
+            display: flex;
+            flex-direction: column;
+            padding: 0.2rem;
+            flex-flow: row nowrap;
+            height: 32rem;
+            width: 22rem;
+            justify-content: flex-start;
+            padding-left: 4rem;
+            margin-left: 0.3rem;
+            margin-right: 1rem;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+    
+        #div__card--index{
+            display: flex;
+            margin-top: 2rem;
+            width: 20rem;
+            padding: 1rem;
+            flex-direction: column;
+            a{
+                background-color: $background-color;
+                color: #FFFFFF;
+                border: $color-principal;
+                border-radius: 0.5rem;
+                border-width: 1rem;
+                padding: 0.5rem;
+                font-family: $font;
+                font-weight: bold;
+                animation-name: btn__btn-primary--animation;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;  
+            }
+        }
+        
+        .card-body{
+            padding: 1rem;
+        }
+        
+        #card-uno{
+            padding: auto;
+            margin-bottom: 2rem;
+        }
+        
+        #card-dos{
+            padding: auto;
+            margin-bottom: 2rem;
+        }
+        
+        #card-tres{
+            padding: auto;
+            margin-bottom: 2rem;
+        }
+        
+        .card-img-top{
+            animation-name: btn__btn-primary--animation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            width: 10rem;
+            height: auto;
+            background-color: $background-color;
+            color: #FFFFFF;
+            border: $color-principal;
+            border-radius: 0.5rem;
+            border-width: 1rem;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        
+        @keyframes card-img-top {
+            0%{background-color: $background-color;}
+            40%{background-color: $color-principal;}
+            100%{background-color: $background-color;}
+        }
+    
+        /*card tienda*/
+        .div__card{
+            display: flex;
+            flex-direction: column;
+    
+            .card{
+                margin-bottom: 1rem;
+            }
+        }
+    
+        .img__demi__fluid{
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: space-between;
+            align-items: center;
+            img{
+                height: auto;
+                width: auto;
+            }
+        }
+    
+        /*footer*/
+        .section__ubicacion{
+        
+                iframe{
+                    display: flex;
+                    padding: 0.5rem;
+                    margin: 0.5rem;
+                    justify-content: left;
+                    
+                }
+        }
+    
+        /*nosotras*/
+        .div__nosotras{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+        }
+    
+        /*registro*/
+        form#form__datos{
+            grid-area: form__datos;
+            display: grid;
+            justify-items: end;
+            justify-content: end;
+            grid-template-columns: 50%;
+            justify-items: center;
+        }
+    
+        aside#aside__h1--registro{
+            justify-content: end;
+        }
+    
+        .legend {
+            color: $color-secundario;
+            text-align: center;
+            font-family: $font;
+            font-weight: bold;
+            padding: 1rem;
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+        }
+    }
+    
+    

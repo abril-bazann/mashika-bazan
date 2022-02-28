@@ -1,0 +1,158 @@
+/*--------------------------------768px-----------------------------*/
+@media (max-width: 768px){
+       
+    body{
+        background-color: $background-color;
+        height: 32rem;
+        width: 22rem;
+    }
+
+    header{
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        padding: 3rem;
+    }
+
+    .header__navbar ul{
+        padding: 2rem;
+        margin-left: 2rem;
+        flex-direction: column;
+    }
+    
+    .header__navbar li{
+        font-family: $font;
+        font-weight: bold;
+        background-color: $color-principal;
+        border-radius: 0.5rem;
+        border-width: 1rem;
+        padding: 0.5rem;
+        margin: 0.3rem;
+        text-align: center;
+    }
+
+    .logo{
+        flex-direction: column;
+        justify-content: center;
+        width: 310px;
+        height: 110px;
+        padding: 0.1rem;
+        margin: 1rem;
+    }
+
+
+    /*index*/
+    .div__card{
+        display: flex;
+        flex-direction: column;
+
+        .card{
+            margin-bottom: 1rem;
+        }
+    }
+
+    .img__demi__fluid{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: center;
+        img{
+            height: auto;
+            width: auto;
+        }
+    }
+
+    /*main*/ 
+    
+    .main{
+        background: rgb(255,15,123);
+        background: linear-gradient(180deg, rgba(255,15,123,1) 6%, rgba(100,26,195,1) 65%, rgba(80,19,191,1) 80%);
+        display: flex;
+        flex-direction: column;
+        padding: 0.2rem;
+        flex-flow: row nowrap;
+        height: 32rem;
+        width: 22rem;
+        justify-content: flex-start;
+        padding-left: 4rem;
+        margin-left: 0.3rem;
+        margin-right: 1rem;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+
+    .form__textarea{
+        font-family: $font;
+        width: 10rem;
+        padding: 1rem;
+    }    
+    
+    .main__div__a{
+        margin-right: 10rem;
+        padding-left: 0.3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border-radius: 0.5rem;
+        border-width: 1rem;
+        margin-left: 3rem;
+    }
+    
+    .main__div__a--instagram{
+        height: 3rem;
+    }
+    
+    .main__div__a--youtube{
+        height: 3rem;
+    }
+    
+    .form__button--main{
+        margin-right: 10rem;
+        padding-left: 0.3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 0.5rem;
+        border-width: 1rem;
+        margin-left: 1rem;
+    }
+
+    .img__correo{
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        margin-right: 10rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5rem;
+    }
+
+    /*footer*/
+    .h3__section{
+        color: #FFFFFF;
+        padding: 1rem;
+        font-family: $font;
+        text-align: center;
+    }
+    .iframe{
+        margin-bottom: 1rem;
+        width: 22rem;
+    }
+    .section__ubicacion{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .div{
+        width: 22rem;
+    }
+
+    
+}
