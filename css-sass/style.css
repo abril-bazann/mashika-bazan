@@ -118,6 +118,7 @@ footer iframe {
   border-color: #FF0F7B;
 }
 
+/*variables*/
 /*-----------------------------------320px----------------------------------*/
 @media (max-width: 480px) {
   body {
@@ -948,7 +949,7 @@ footer iframe {
   }
   .fieldset {
     margin: 1rem;
-    width: 12rem;
+    width: 22rem;
   }
   .form__button--main {
     margin-right: 10rem;
@@ -1214,6 +1215,7 @@ footer iframe {
   }
 }
 
+/*variables*/
 /*--------------------------------768px-----------------------------*/
 @media (max-width: 768px) {
   body {

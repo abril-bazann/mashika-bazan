@@ -1,3 +1,4 @@
+@import "variables";
     /*-----------------------------------320px----------------------------------*/
     @media (max-width: 480px){
         body{
@@ -677,7 +678,7 @@
     
         .fieldset{
             margin: 1rem;
-            width: 12rem;
+            width: 22rem;
         }
     
         .form__button--main{
