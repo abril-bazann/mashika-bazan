@@ -14,7 +14,18 @@
             align-items: flex-start;
             margin-bottom: 1rem;
             margin-left: 1rem;
-            padding: 3rem;
+            align-items: stretch;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            align-content: center;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            
+            flex-direction: column;
         }
     
         .header__navbar ul{
@@ -208,7 +219,7 @@
             margin-bottom: 1rem;
         }
     
-        #div__registro{
+        .div__registro{
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
@@ -571,7 +582,7 @@
             margin-bottom: 1rem;
         }
     
-        #div__registro{
+        .div__registro{
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;

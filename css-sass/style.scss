@@ -186,7 +186,7 @@ header{
 
 /*-----------------EMPIEZA REGISTRO----------------*/
 
-#div__registro{
+.div__registro{
     display: grid;
     grid-template-areas: "aside form"
     "aside form";

@@ -47,9 +47,8 @@
 
     /*index*/
     .div__card{
-        display: flex;
-        flex-direction: column;
-
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         .card{
             margin-bottom: 1rem;
         }
@@ -160,5 +159,41 @@
         width: 22rem;
     }
 
-    
+    /*registro*/
+    .div__registro{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    #form__datos{
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    .h1__registro{
+        display: none;
+    }
+
+    aside{
+        display: flex;
+
+    }
+
+    .chalamet--img{
+        display: none;
+    }
+
+    fieldset{
+        height: 40rem;
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+    }
+
+
 }

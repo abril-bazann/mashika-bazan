@@ -131,10 +131,8 @@ footer iframe {
     display: flex;
     -ms-flex-line-pack: center;
         align-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-align: start;
@@ -142,7 +140,24 @@ footer iframe {
             align-items: flex-start;
     margin-bottom: 1rem;
     margin-left: 1rem;
-    padding: 3rem;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    align-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-wrap: wrap;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    flex-direction: column;
   }
   .header__navbar ul {
     padding: 2rem;
@@ -368,7 +383,7 @@ footer iframe {
     height: 3.7rem;
     margin-bottom: 1rem;
   }
-  #div__registro {
+  .div__registro {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -821,7 +836,7 @@ footer iframe {
     height: 3.7rem;
     margin-bottom: 1rem;
   }
-  #div__registro {
+  .div__registro {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1258,13 +1273,10 @@ footer iframe {
   }
   /*index*/
   .div__card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
   .div__card .card {
     margin-bottom: 1rem;
@@ -1421,6 +1433,57 @@ footer iframe {
   }
   .div {
     width: 22rem;
+  }
+  /*registro*/
+  .div__registro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #form__datos {
+    margin-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .h1__registro {
+    display: none;
+  }
+  aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .chalamet--img {
+    display: none;
+  }
+  fieldset {
+    height: 40rem;
+    width: 30rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -1655,7 +1718,7 @@ header {
 
 /*-----------------TERMINA FOOTER/CONTACTO----------------*/
 /*-----------------EMPIEZA REGISTRO----------------*/
-#div__registro {
+.div__registro {
   display: -ms-grid;
   display: grid;
       grid-template-areas: "aside form" "aside form";
