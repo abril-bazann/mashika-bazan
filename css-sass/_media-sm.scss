@@ -75,6 +75,7 @@
         .main__div__a--youtube{
             height: 3rem;
         }
+
         .main{
             background-color: $color-secundario;
             display: flex;
@@ -91,7 +92,6 @@
             margin-left: 1rem;
             margin-right: 1rem;
         }
-        
         
         .form__textarea{
             font-family: $font;
@@ -177,6 +177,10 @@
     
         .div__descuento{
             text-align: center;
+        }
+
+        .link__btn--productos{
+            margin-right: 2.6rem;
         }
     
         .div__productos{
@@ -836,6 +840,9 @@
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: space-around;
             
         }
     

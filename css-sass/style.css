@@ -336,6 +336,9 @@ footer iframe {
   .div__descuento {
     text-align: center;
   }
+  .link__btn--productos {
+    margin-right: 2.6rem;
+  }
   .div__productos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1172,6 +1175,10 @@ footer iframe {
             flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
   }
   /*registro*/
   form#form__datos {
