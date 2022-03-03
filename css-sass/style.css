@@ -16,7 +16,7 @@
 /*header*/
 nav ul {
   list-style-type: none;
-  text-align: right;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
