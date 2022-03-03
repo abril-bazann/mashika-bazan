@@ -31,9 +31,6 @@ body{
     background-color: $background-color;
 }
 
-header{
-    display: flex;
-}
 
 .h1{
     color: $color-principal;
@@ -341,9 +338,14 @@ legend{
 
 /*-----------------EMPIEZA TIENDA----------------*/
 
-.div__img--lentes img:hover{
-    transform: scale(1.1);
-}
+.div__img--lentes{
+    img{
+       &:hover{
+        transform: scale(1.1);    
+       }
+    }
+} 
+    
 
 @keyframes btn__btn-primary--animation {
     0%{background-color: $background-color;}

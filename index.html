@@ -17,24 +17,38 @@
     <title>Home - Mashika</title>
 </head>
 <body>
-    <header class="container-fluid">
-      <div class="row">
-        <a class="col-3" href="/index.html">
-          <img data-aos="zoom-out-right" class="logo" src="./img/logo-confondo.png" alt="Logo de Mashika" height="300px" width=300px>
-        </a>
-      
-        <nav role="navigation" class="header__navbar col-sm-9">
-            <ul class="header__navbar--ul">
-                <li class="header__navbar--li" data-aos="zoom-out-right"><a class="flex-sm-fill text-sm-center nav-link" href="/index.html">Home</a></li>
-                <li data-aos="zoom-out-right"><a class="flex-sm-fill text-sm-center nav-link" href="./pages/contacto.html">Contactate</a></li>
-                <li data-aos="zoom-out-right"><a class="flex-sm-fill text-sm-center nav-link" href="./pages/registrate.html">Registrate</a></li>
-                <li data-aos="zoom-out-right"> <a class="flex-sm-fill text-sm-center nav-link" href="./pages/sobrenosotros.html">Nosotras</a></li>
-                <li data-aos="zoom-out-right"><a class="flex-sm-fill text-sm-center nav-link" href="./pages/tienda.html">Productos</a></li>
-            </ul>
-        </nav>
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid" style="background-color: #000123;">
+        <a class="navbar-brand" href="/index.html"><img data-aos="zoom-out-right" class="logo" src="./img/logo-confondo.png" alt="Logo de Mashika" height="300px" width=300px></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./pages/contacto.html" >Contactate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/registrate.html">Registrate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/sobrenosotros.html">Nosotras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/tienda.html">Productos</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </header>
-    <div class="div__descuento">
+    </nav>
+  </header>  
+
+    <section>
+      <div class="div__descuento">
         <h1 class="h1">70% DE DESCUENTO EN TODOS LOS</h1>
         <form>
           <a class="link__btn--productos" href="./pages/tienda.html"> 
@@ -42,68 +56,74 @@
           </a>
         </form>
         <img class="img__flecha" src="./img/flecha.png" alt="flecha">
-    </div>
-    
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/lente-carousel.png" class="d-block w-100" alt="lentes de sol Louis Vuitton negros">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/lente-carousel-2.png" class="d-block w-100" alt="lentes de sol blancos estilo vintage">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/lente-carousel-6.png" class="d-block w-100" alt="lentes de sol verdes con dorado">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/t-cannes.jpeg" class="d-block w-100" alt="lentes de sol negros vintage">
-        </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
+    
+    
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/lente-carousel.png" class="d-block w-100" alt="lentes de sol Louis Vuitton negros">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/lente-carousel-2.png" class="d-block w-100" alt="lentes de sol blancos estilo vintage">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/lente-carousel-6.png" class="d-block w-100" alt="lentes de sol verdes con dorado">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/t-cannes.jpeg" class="d-block w-100" alt="lentes de sol negros vintage">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
     <div class="alert alert-warning alert-dismissible fade show" role="alert" data-aos="fade-right">
       <strong>OMG,</strong> que hermosos lentes! Yo que vos, me los compro
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 
-    <h3 class="h6_demi">Demi Lovato x Diff Eyewear</h3>
+    <section>
+      <h3 class="h6_demi">Demi Lovato x Diff Eyewear</h3>
+      <div class="div__card container" style="justify-content: space-between; align-items: center;" id="div__card--index">
+        <div class="row">
+          <div class="card col-3 col-sm-4 col-md-4" id="card-uno" style="width: 14rem; height: 30rem;">
+            <div class="card-body">
+              <a href="./pages/tienda.html"><img src="./img/lentes-demi.jpg" class="card-img-top" alt="Demi Lovato modelando sus propios lentes de sol de color violeta"></a>
+              <h5 class="card-title">Purple Flow</h5>
+              <p class="card-text">Los lentes de sol más elegantes para un día de verano en la playa pura innovación por parte de Demi Lovato.</p>
+            </div>
+          </div>
+        </div>
 
-<div class="div__card" id="div__card--index">
-    <div class="card" id="card-uno" style="width: 14rem; height: 30rem;">
-      
-      <div class="card-body">
-        <a href="./pages/tienda.html"><img src="./img/lentes-demi.jpg" class="card-img-top" alt="Demi Lovato modelando sus propios lentes de sol de color violeta"></a>
-        <h5 class="card-title">Purple Flow</h5>
-        <p class="card-text">Los lentes de sol más elegantes para un día de verano en la playa pura innovación por parte de Demi Lovato.</p>
-      </div>
-    </div>
+        <div class="row">
+          <div class="card col-3 col-sm-4 col-md-3" id="card-dos" style="width: 14rem; height: 30rem;">
+            <div class="card-body">
+              <a href="./pages/tienda.html"><img src="./img/demi-lentes.jpg" class="card-img-top" alt="Demi Lovato modelando sus propios lentes de sol de color cálido rosa dorado"></a>
+              <h5 class="card-title">Rose Gold</h5>
+              <p class="card-text">Los lentes con más onda para cualquier fan del rosa con un toque de un dorado. Edición exclusiva 2022.</p>
+            </div>
+          </div>
+        </div>
 
-    <div class="card" id="card-dos" style="width: 14rem; height: 30rem;">
-      
-      <div class="card-body">
-        <a href="./pages/tienda.html"><img src="./img/demi-lentes.jpg" class="card-img-top" alt="Demi Lovato modelando sus propios lentes de sol de color cálido rosa dorado"></a>
-        <h5 class="card-title">Rose Gold</h5>
-        <p class="card-text">Los lentes con más onda para cualquier fan del rosa con un toque de un dorado. Edición exclusiva 2022.</p>
+        <div class="row">
+          <div class="card col-4 col-sm-4 col-md-3" id="card-tres" style="width: 14rem; height: 30rem;">
+            <div class="card-body">
+              <a href="./pages/tienda.html"><img src="./img/black-sun.jpg" class="card-img-top" alt="Demi Lovato modelando sus propios lentes de sol de color negro"></a>
+              <h5 class="card-title">Dark Sun</h5>
+              <p class="card-text">Si buscás simpleza y te encanta el negro, estos son oficialmente, tus lentes de sol favoritos para esta época.</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="card" id="card-tres" style="width: 14rem; height: 30rem;">
-      
-      <div class="card-body">
-        <a href="./pages/tienda.html"><img src="./img/black-sun.jpg" class="card-img-top" alt="Demi Lovato modelando sus propios lentes de sol de color negro"></a>
-        <h5 class="card-title">Dark Sun</h5>
-        <p class="card-text">Si buscás simpleza y te encanta el negro, estos son oficialmente, tus lentes de sol favoritos para esta época.</p>
-      </div>
-    </div>
-</div>
+    </section>
+    
 
     <h2 class="h2--contactate">Contactate</h2>
 
@@ -118,7 +138,7 @@
         </div>
         <div class="main__div__a">
             <div>
-                <a class="main__div__a--instagram" href="https://www.instagram.com/mashika_sunglasses/" target="_BLANK"><img src=".\img\instagram.png" alt="instagram icon" height="40px" width=40px"></a>
+                <a class="main__div__a--instagram" href="https://www.instagram.com/mashika_sunglasses/" target="_BLANK"><img src=".\img\instagram.png" alt="instagram icon" height="40px" width="40px"></a>
             </div>
             <div>
                 <a class="main__div__a--youtube" href="https://youtu.be/a4yF_VtDEqI" target="_BLANK"><img src=".\img\youtube.png" alt="youtube icon" height="60px" width=60px"></a>
@@ -130,11 +150,12 @@
           <h3 class="h3__section">Ver ubicación</h3>
           <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108977.23061120848!2d-64.26455598996321!3d-31.39928754086043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses!2sar!4v1638475422748!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </section>
-    </footer>
-
-    <div class="div">
+      <div class="div">
         <p class="div__ubicacion--tel">Córdoba Capital, Argentina. (351) 456 7890</p> 
     </div>
+    </footer>
+
+    
 
     <script src="./js-bt/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -1,41 +1,40 @@
 @import "variables";
 /*header*/
-.header__navbar{
-    ul{
-        padding: 1.5rem;
-        list-style-type: none;
-        text-align: right;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-end;
-        margin-left: 2rem;
-    }
+    nav{
+        ul{
+            list-style-type: none;
+            text-align: right;
+            display: flex;
+            align-items: stretch;
+            flex-wrap: wrap;
+            align-content: center;
+        }
 
-    li{
-        display: inline-block;
-        font-family: 'Chakra Petch', sans-serif;
-        font-weight: bold;
-        background-color: #FF0F7B;
-        border-radius: 0.5rem;
-        border-width: 1rem;
-        padding: 0.5rem;
-        margin: 0.3rem;
-        cursor: pointer;
-    }
+        li{
+            font-family: 'Chakra Petch', sans-serif;
+            font-weight: bold;
+            background-color: #FF0F7B;
+            border-radius: 0.5rem;
+            border-width: 1rem;
+            padding: 0.3rem;
+            margin: 0.3rem;
+            cursor: pointer;
+            &:hover{
+                color: #FFFFFF
+            }                 
+        }
 
-    a{
-        text-decoration: none;
-        color: #FFFFFF;
-        text-transform: initial;
-        font-size: 1.2rem;
-        background-color: #FF0F7B;
-        padding: 0.5rem;
-        &:hover{
-            color: $background-color
-        } 
+        a{
+            text-decoration: none;
+            text-transform: initial;
+            font-size: 1.2rem;
+            padding: 0.5rem;
+            color: #FFFFFF;
+        }
+
+        button{
+            span{
+                color: #FFFFFF;
+            }
+        }            
     }
-    .header__navbar--li aos-init aos-animate{
-        padding: 0.5rem;
-        margin: 0.3rem;
-    }
-}
