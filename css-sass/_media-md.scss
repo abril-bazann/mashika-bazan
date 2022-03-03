@@ -49,8 +49,6 @@
 
     /*index*/
     .div__card{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         .card{
             margin-bottom: 1rem;
         }

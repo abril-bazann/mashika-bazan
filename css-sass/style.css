@@ -1189,12 +1189,6 @@ footer iframe {
     margin: 1rem;
   }
   /*index*/
-  .div__card {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
   .div__card .card {
     margin-bottom: 1rem;
   }
@@ -2029,7 +2023,6 @@ legend {
 }
 
 #div__card--index {
-  margin: 1rem;
   padding: 1.8rem;
 }
 
