@@ -76,22 +76,6 @@
             height: 3rem;
         }
 
-        .main{
-            background-color: $color-secundario;
-            display: flex;
-            flex-direction: column;
-            padding: 0.2rem;
-            align-items: center;
-            flex-flow: row nowrap;
-            flex-wrap: wrap;
-            height: 25rem;
-            width: 15rem;
-            align-content: center;
-            justify-content: center;
-            padding-left: 4rem;
-            margin-left: 1rem;
-            margin-right: 1rem;
-        }
         
         .form__textarea{
             font-family: $font;
@@ -132,7 +116,7 @@
         }
     
         form{
-            display: grid;
+            display: flex;
             justify-items: right;
             justify-content: space-around;
             grid-template-columns: 50%;
@@ -360,22 +344,7 @@
             padding: 3rem;
         }
     
-        .main{
-            background: rgb(255,15,123);
-            background: linear-gradient(180deg, rgba(255,15,123,1) 6%, rgba(100,26,195,1) 65%, rgba(80,19,191,1) 80%);
-            display: flex;
-            flex-direction: column;
-            padding: 0.2rem;
-            flex-flow: row nowrap;
-            height: 32rem;
-            width: 22rem;
-            justify-content: flex-start;
-            padding-left: 4rem;
-            margin-left: 0.3rem;
-            margin-right: 1rem;
-            flex-wrap: wrap;
-            align-content: space-around;
-        }
+        
     
         body{
             background-color: $background-color;
@@ -443,22 +412,7 @@
         .main__div__a--youtube{
             height: 3rem;
         }
-        .main{
-            background-color: $color-secundario;
-            display: flex;
-            flex-direction: column;
-            padding: 0.2rem;
-            align-items: center;
-            flex-flow: row nowrap;
-            flex-wrap: wrap;
-            height: 25rem;
-            width: 15rem;
-            align-content: center;
-            justify-content: center;
-            padding-left: 4rem;
-            margin-left: 1rem;
-            margin-right: 1rem;
-        }
+        
         
         
         .form__textarea{
@@ -727,17 +681,12 @@
             background: rgb(255,15,123);
             background: linear-gradient(180deg, rgba(255,15,123,1) 6%, rgba(100,26,195,1) 65%, rgba(80,19,191,1) 80%);
             display: flex;
+            justify-content: center;
             flex-direction: column;
-            padding: 0.2rem;
-            flex-flow: row nowrap;
-            height: 32rem;
-            width: 22rem;
-            justify-content: flex-start;
-            padding-left: 4rem;
-            margin-left: 0.3rem;
-            margin-right: 1rem;
             flex-wrap: wrap;
-            align-content: space-around;
+            align-content: center;
+            align-items: stretch;
+            
         }
     
         #div__card--index{
