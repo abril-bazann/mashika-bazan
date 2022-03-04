@@ -1368,6 +1368,9 @@ footer iframe {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .h1__registro {
     display: none;
@@ -1377,24 +1380,14 @@ footer iframe {
     display: -ms-flexbox;
     display: flex;
   }
-  .chalamet--img {
+  .chalamet--img__registro {
     display: none;
   }
   fieldset {
     height: 40rem;
     width: 30rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-line-pack: distribute;
-        align-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: -ms-grid;
+    display: grid;
   }
 }
 

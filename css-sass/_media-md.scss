@@ -171,7 +171,9 @@
     #form__datos{
         margin-top: 2rem;
         display: flex;
+        justify-content:center;
     }
+
 
     .h1__registro{
         display: none;
@@ -182,17 +184,15 @@
 
     }
 
-    .chalamet--img{
+    .chalamet--img__registro{
         display: none;
     }
 
     fieldset{
         height: 40rem;
         width: 30rem;
-        display: flex;
-        flex-direction: column;
-        align-content: space-around;
-        align-items: center;
+        display: grid;
+        
     }
 
 
