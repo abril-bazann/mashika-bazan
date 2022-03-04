@@ -1583,6 +1583,17 @@ body {
   color: #f6e0de;
   padding: 1rem;
   font-family: "Chakra Petch", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.main__redes {
+  font-family: "Chakra Petch", sans-serif;
+  color: #FFFFFF;
 }
 
 .div__ubicacion--tel {

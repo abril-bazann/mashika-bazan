@@ -150,6 +150,14 @@ body{
     color: $color-secundario;
     padding: 1rem;
     font-family: $font;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.main__redes{
+    font-family: $font;
+    color: #FFFFFF;
 }
 
 .div__ubicacion--tel{
