@@ -1978,6 +1978,11 @@ legend {
           transform: scale(1.2);
 }
 
+.img__nosotras {
+  height: 20rem;
+  width: 40rem;
+}
+
 .h1__nosotras {
   color: #FF0F7B;
   text-align: center;
